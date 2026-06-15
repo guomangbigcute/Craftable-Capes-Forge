@@ -162,8 +162,8 @@ dependencies {
     // Specify the version of Minecraft to use.
     minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
 
-    // Curios API dependency from Curse Maven
-    implementation fg.deobf("curse.maven:curios-309927:4985315")
+    // Curios API dependency from Modrinth Maven (1.20.1)
+    implementation fg.deobf("maven.modrinth:curios:IPQlZkz1")
     
     // Mixin dependency
     annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
