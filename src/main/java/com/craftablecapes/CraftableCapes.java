@@ -31,16 +31,16 @@ public class CraftableCapes {
     // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
     
-    // Creative Tab for all capes
-    public static final CreativeModeTab CAPE_TAB = new CreativeModeTab("craftablecapes_capes") {
-        @Override
-        public ItemStack makeIcon() {
-            if (CapeItem.ALL_CAPES.isEmpty()) {
-                return ItemStack.EMPTY;
-            }
-            return new ItemStack(CapeItem.ALL_CAPES.get(new Random().nextInt(CapeItem.ALL_CAPES.size())));
-        }
-    };
+    // Creative Tab for all capes (1.20.1+ builder pattern)
+    public static final CreativeModeTab CAPE_TAB = CreativeModeTab.builder()
+            .title(net.minecraft.network.chat.Component.translatable("itemGroup.craftablecapes"))
+            .icon(() -> {
+                if (CapeItem.ALL_CAPES.isEmpty()) {
+                    return ItemStack.EMPTY;
+                }
+                return new ItemStack(CapeItem.ALL_CAPES.get(new Random().nextInt(CapeItem.ALL_CAPES.size())));
+            })
+            .build();
     
     // Cape instances will be registered here
     public static final ArrayList<CapeItem> ALL_CAPES_LIST = new ArrayList<>();
