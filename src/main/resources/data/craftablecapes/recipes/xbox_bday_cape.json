@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:cake"
+    },
+    {
+      "item": "craftablecapes:xbox_cape"
+    }
+  ],
+  "result": {
+    "item": "craftablecapes:xbox_bday_cape",
+    "count": 1
+  }
+}

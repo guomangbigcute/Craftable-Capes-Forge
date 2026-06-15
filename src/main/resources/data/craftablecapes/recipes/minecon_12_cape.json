@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WWW",
+    "WIW",
+    "WWW"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:lime_wool"
+    },
+    "I": {
+      "item": "minecraft:totem_of_undying"
+    }
+  },
+  "result": {
+    "item": "craftablecapes:minecon_12_cape",
+    "count": 1
+  }
+}
