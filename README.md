@@ -1,6 +1,6 @@
 # Craftable Capes
 
-基于 [Ryhon0/CraftableCapes](https://github.com/Ryhon0/CraftableCapes) (GPL v3) 移植的 NeoForge 版本。
+基于 [Ryhon0/CraftableCapes](https://github.com/Ryhon0/CraftableCapes) (GPL v3) 移植的 Forge / NeoForge 版本。
 
 可合成 Minecraft 中所有已发布过的披风，通过 Curios API 提供独立的披风饰品栏。
 
