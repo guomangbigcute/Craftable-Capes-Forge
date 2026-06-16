@@ -12,7 +12,6 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.common.Mod;
-import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -51,7 +50,6 @@ public class CraftableCapes {
 
         modEventBus.addListener(ClientSetup::onClientSetup);
         modEventBus.addListener(this::onBuildCreativeTabContents);
-        NeoForge.EVENT_BUS.register(this);
 
         LOGGER.info("Craftable Capes initialized for NeoForge!");
     }
