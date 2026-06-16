@@ -2,7 +2,9 @@ package com.craftablecapes;
 
 import com.craftablecapes.items.CapeItem;
 import com.craftablecapes.items.OnlineCapeItem;
+import com.craftablecapes.registry.CapeRegistry;
 import com.mojang.logging.LogUtils;
+import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
@@ -21,7 +23,7 @@ import java.util.ArrayList;
 import java.util.Random;
 
 /**
- * Craftable Capes - Forge 1.18.2
+ * Craftable Capes - Forge 1.20.1
  * Ported from Fabric version with Trinkets to Forge with Curios API
  */
 @Mod(CraftableCapes.MOD_ID)
@@ -31,14 +33,19 @@ public class CraftableCapes {
     // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
     
-    // Creative Tab for all capes (1.20.1+ builder pattern)
+    // Creative Tab for all capes (1.20.1+ builder pattern, no tab() on item properties)
     public static final CreativeModeTab CAPE_TAB = CreativeModeTab.builder()
-            .title(net.minecraft.network.chat.Component.translatable("itemGroup.craftablecapes"))
+            .title(Component.translatable("itemGroup.craftablecapes"))
             .icon(() -> {
                 if (CapeItem.ALL_CAPES.isEmpty()) {
                     return ItemStack.EMPTY;
                 }
                 return new ItemStack(CapeItem.ALL_CAPES.get(new Random().nextInt(CapeItem.ALL_CAPES.size())));
+            })
+            .displayItems((parameters, output) -> {
+                for (CapeItem cape : CapeItem.ALL_CAPES) {
+                    output.accept(cape);
+                }
             })
             .build();
     
@@ -47,6 +54,9 @@ public class CraftableCapes {
     
     public CraftableCapes() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+        
+        // Register DeferredRegister for items (1.20.1+)
+        CapeRegistry.ITEMS.register(modEventBus);
         
         // Register the setup method for modloading
         modEventBus.addListener(this::setup);
@@ -70,9 +80,6 @@ public class CraftableCapes {
     private void enqueueIMC(final InterModEnqueueEvent event) {
         // Register the "cape" slot type with Curios API
         InterModComms.sendTo("curios", "register_type", () -> {
-            // SlotTypeMessage is the message format Curios expects
-            // This creates a slot group "cape" with a single slot
-            // Parameter order: identifier, priority, icon, size, addDynamic, useNativeGui
             return new top.theillusivec4.curios.api.SlotTypeMessage.Builder("cape")
                     .priority(200)
                     .icon(new ResourceLocation("curios", "slot/empty_cape_slot"))
@@ -87,15 +94,16 @@ public class CraftableCapes {
     }
     
     // Helper method to create local texture capes
+    // Note: tab() was removed in 1.20.1; items go into tab via displayItems()
     public static CapeItem registerCape(String name) {
-        CapeItem cape = new CapeItem(name, new Item.Properties().tab(CAPE_TAB).stacksTo(1));
+        CapeItem cape = new CapeItem(name, new Item.Properties().stacksTo(1));
         ALL_CAPES_LIST.add(cape);
         return cape;
     }
     
     // Helper method to create online texture capes
     public static OnlineCapeItem registerOnlineCape(String hash, String name) {
-        OnlineCapeItem cape = new OnlineCapeItem(hash, new Item.Properties().tab(CAPE_TAB).stacksTo(1));
+        OnlineCapeItem cape = new OnlineCapeItem(hash, new Item.Properties().stacksTo(1));
         ALL_CAPES_LIST.add(cape);
         return cape;
     }
