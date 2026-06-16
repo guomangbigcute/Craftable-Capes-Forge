@@ -4,7 +4,6 @@ import com.craftablecapes.items.CapeItem;
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.blaze3d.vertex.VertexConsumer;
 import com.mojang.math.Axis;
-import net.minecraft.client.Minecraft;
 import net.minecraft.client.model.EntityModel;
 import net.minecraft.client.model.PlayerModel;
 import net.minecraft.client.player.AbstractClientPlayer;
@@ -14,11 +13,9 @@ import net.minecraft.client.renderer.entity.RenderLayerParent;
 import net.minecraft.client.renderer.texture.OverlayTexture;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.util.Mth;
-import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.player.PlayerModelPart;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Items;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.api.distmarker.OnlyIn;
 import top.theillusivec4.curios.api.SlotContext;
@@ -49,13 +46,8 @@ public class CapeCurioRenderer implements ICurioRenderer {
         if (player.isInvisible()) return;
         if (!player.isModelPartShown(PlayerModelPart.CAPE)) return;
         
-        ItemStack chestItem = player.getItemBySlot(EquipmentSlot.CHEST);
-        if (chestItem.is(Items.ELYTRA)) return;
-
         ResourceLocation capeTexture = capeItem.getTextureLocation();
         if (capeTexture == null) return;
-
-        // Use the cape item's texture location for rendering
 
         // Vanilla-style cape rendering
         poseStack.pushPose();
