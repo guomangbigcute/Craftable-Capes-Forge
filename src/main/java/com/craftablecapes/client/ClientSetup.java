@@ -27,12 +27,10 @@ public class ClientSetup {
         FileCache.capeCache = new FileCache(cacheDir.toPath());
         LOGGER.info("Cape texture cache initialized at: {}", cacheDir.getAbsolutePath());
 
-        // Register Curios renderer for ALL cape items
-        CapeRegistry.ITEMS.getEntries().forEach(holder -> {
-            if (holder.get() instanceof com.craftablecapes.items.CapeItem) {
-                CuriosRendererRegistry.register(holder.get(), () -> new CapeCurioRenderer());
-            }
-        });
-        LOGGER.info("Registered Curios renderers for all cape items");
+        // Register Curios renderer for ALL cape items using ALL_CAPES list
+        for (com.craftablecapes.items.CapeItem cape : com.craftablecapes.items.CapeItem.ALL_CAPES) {
+            CuriosRendererRegistry.register(cape, () -> new CapeCurioRenderer());
+        }
+        LOGGER.info("Registered Curios renderers for {} cape items", com.craftablecapes.items.CapeItem.ALL_CAPES.size());
     }
 }

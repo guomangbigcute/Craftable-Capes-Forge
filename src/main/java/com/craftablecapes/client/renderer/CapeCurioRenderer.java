@@ -55,13 +55,7 @@ public class CapeCurioRenderer implements ICurioRenderer {
         ResourceLocation capeTexture = capeItem.getTextureLocation();
         if (capeTexture == null) return;
 
-        // Verify texture exists in resource manager, then use entityCutout render
-        var resourceManager = Minecraft.getInstance().getResourceManager();
-        boolean textureExists = resourceManager.getResource(capeTexture).isPresent();
-        if (!textureExists) {
-            // Try with default textures path if ours isn't found
-            return;  // Skip rendering if texture file doesn't exist
-        }
+        // Use the cape item's texture location for rendering
 
         // Vanilla-style cape rendering
         poseStack.pushPose();
