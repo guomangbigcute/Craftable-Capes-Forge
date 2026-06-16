@@ -1,28 +1,38 @@
 package com.craftablecapes.mixin;
 
-import net.minecraft.client.renderer.RenderType;
+import com.craftablecapes.integration.CuriosIntegration;
+import net.minecraft.client.player.AbstractClientPlayer;
+import net.minecraft.client.renderer.MultiBufferSource;
 import net.minecraft.client.renderer.entity.layers.CapeLayer;
-import net.minecraft.resources.ResourceLocation;
+import com.mojang.blaze3d.vertex.PoseStack;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.api.distmarker.OnlyIn;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
-import org.spongepowered.asm.mixin.injection.Redirect;
+import org.spongepowered.asm.mixin.injection.Inject;
+import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
 /**
- * Mixin to change CapeLayer rendering from solid to cutout
- * This allows cape textures with transparency to render correctly
- * Equivalent to Fabric's CapeFeatureRendererMixin in 1.21.4
+ * Mixin to skip vanilla CapeLayer rendering when a Curios cape is equipped.
+ * This prevents double-rendering (CapeLayer + ICurioRenderer).
  */
 @OnlyIn(Dist.CLIENT)
 @Mixin(CapeLayer.class)
 public class CapeLayerMixin {
 
-    @Redirect(
+    @Inject(
         method = "render",
-        at = @At(value = "INVOKE", target = "Lnet/minecraft/client/renderer/RenderType;entitySolid(Lnet/minecraft/resources/ResourceLocation;)Lnet/minecraft/client/renderer/RenderType;")
+        at = @At("HEAD"),
+        cancellable = true
     )
-    private RenderType redirectCapeRenderLayer(ResourceLocation location) {
-        return RenderType.entityCutout(location);
+    private void onRenderCape(PoseStack poseStack, MultiBufferSource buffer, int light,
+                              AbstractClientPlayer player, float limbSwing, float limbSwingAmount,
+                              float partialTicks, float ageInTicks, float netHeadYaw, float headPitch,
+                              CallbackInfo ci) {
+        // If player has a cape equipped in Curios, skip vanilla CapeLayer rendering
+        // Curios ICurioRenderer will handle the rendering instead
+        if (CuriosIntegration.hasCapeEquipped(player)) {
+            ci.cancel();
+        }
     }
 }

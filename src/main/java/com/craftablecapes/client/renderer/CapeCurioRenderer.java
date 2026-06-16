@@ -1,10 +1,10 @@
 package com.craftablecapes.client.renderer;
 
 import com.craftablecapes.items.CapeItem;
-import com.mojang.blaze3d.systems.RenderSystem;
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.blaze3d.vertex.VertexConsumer;
 import com.mojang.math.Axis;
+import net.minecraft.client.Minecraft;
 import net.minecraft.client.model.EntityModel;
 import net.minecraft.client.model.PlayerModel;
 import net.minecraft.client.player.AbstractClientPlayer;
@@ -24,11 +24,6 @@ import net.neoforged.api.distmarker.OnlyIn;
 import top.theillusivec4.curios.api.SlotContext;
 import top.theillusivec4.curios.api.client.ICurioRenderer;
 
-/**
- * ICurioRenderer for capes.
- * Renders the cape texture on the player model using the same logic as CapeLayer,
- * but driven by Curios rendering registry instead of mixins.
- */
 @OnlyIn(Dist.CLIENT)
 public class CapeCurioRenderer implements ICurioRenderer {
 
@@ -51,7 +46,6 @@ public class CapeCurioRenderer implements ICurioRenderer {
         if (!(renderLayerParent.getModel() instanceof PlayerModel<?> playerModel)) return;
         if (!(slotContext.entity() instanceof AbstractClientPlayer player)) return;
 
-        // Check conditions: not invisible, cape model part enabled, not wearing elytra
         if (player.isInvisible()) return;
         if (!player.isModelPartShown(PlayerModelPart.CAPE)) return;
         
@@ -61,7 +55,15 @@ public class CapeCurioRenderer implements ICurioRenderer {
         ResourceLocation capeTexture = capeItem.getTextureLocation();
         if (capeTexture == null) return;
 
-        // Same rendering logic as Minecraft's CapeLayer.render()
+        // Verify texture exists in resource manager, then use entityCutout render
+        var resourceManager = Minecraft.getInstance().getResourceManager();
+        boolean textureExists = resourceManager.getResource(capeTexture).isPresent();
+        if (!textureExists) {
+            // Try with default textures path if ours isn't found
+            return;  // Skip rendering if texture file doesn't exist
+        }
+
+        // Vanilla-style cape rendering
         poseStack.pushPose();
         poseStack.translate(0.0F, 0.0F, 0.125F);
 
@@ -96,10 +98,8 @@ public class CapeCurioRenderer implements ICurioRenderer {
         poseStack.mulPose(Axis.ZP.rotationDegrees(f3 / 2.0F));
         poseStack.mulPose(Axis.YP.rotationDegrees(180.0F - f3 / 2.0F));
 
-        // Use entitySolid render type (same as vanilla CapeLayer)
-        VertexConsumer vertexconsumer = multiBufferSource.getBuffer(
-            RenderType.entitySolid(capeTexture)
-        );
+        // Use entityCutout for the same rendering as the vanilla CapeLayer
+        VertexConsumer vertexconsumer = multiBufferSource.getBuffer(RenderType.entityCutout(capeTexture));
         playerModel.renderCloak(poseStack, vertexconsumer, light, OverlayTexture.NO_OVERLAY);
         poseStack.popPose();
     }
