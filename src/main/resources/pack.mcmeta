@@ -1,7 +1,6 @@
 {
     "pack": {
-        "description": "craftablecapes resources",
-        "pack_format": 10,
-        "forge:data_pack_format": 10
+        "description": "Craftable Capes resources",
+        "pack_format": 10
     }
 }
