@@ -33,7 +33,7 @@ public class CraftableCapes {
     // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
     
-    // Creative Tab for all capes (1.20.1+ builder pattern, no tab() on item properties)
+    // Creative Tab for all capes (1.20.1+ builder pattern)
     public static final CreativeModeTab CAPE_TAB = CreativeModeTab.builder()
             .title(Component.translatable("itemGroup.craftablecapes"))
             .icon(() -> {
@@ -43,8 +43,8 @@ public class CraftableCapes {
                 return new ItemStack(CapeItem.ALL_CAPES.get(new Random().nextInt(CapeItem.ALL_CAPES.size())));
             })
             .displayItems((parameters, output) -> {
-                for (CapeItem cape : CapeItem.ALL_CAPES) {
-                    output.accept(cape);
+                for (Item item : CapeRegistry.ITEMS.getEntries().stream().map(reg -> reg.get()).toList()) {
+                    output.accept(new ItemStack(item));
                 }
             })
             .build();
