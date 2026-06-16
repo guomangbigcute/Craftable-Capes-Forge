@@ -1,6 +1,7 @@
 package com.craftablecapes.client.renderer;
 
 import com.craftablecapes.items.CapeItem;
+import com.mojang.blaze3d.systems.RenderSystem;
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.blaze3d.vertex.VertexConsumer;
 import com.mojang.math.Axis;
@@ -95,8 +96,9 @@ public class CapeCurioRenderer implements ICurioRenderer {
         poseStack.mulPose(Axis.ZP.rotationDegrees(f3 / 2.0F));
         poseStack.mulPose(Axis.YP.rotationDegrees(180.0F - f3 / 2.0F));
 
+        // Use entitySolid render type (same as vanilla CapeLayer)
         VertexConsumer vertexconsumer = multiBufferSource.getBuffer(
-            RenderType.entityCutout(capeTexture)
+            RenderType.entitySolid(capeTexture)
         );
         playerModel.renderCloak(poseStack, vertexconsumer, light, OverlayTexture.NO_OVERLAY);
         poseStack.popPose();
