@@ -1,31 +1,42 @@
-# Craftable Capes
+# Craftable Capes (NeoForge)
 
-基于 [Ryhon0/CraftableCapes](https://github.com/Ryhon0/CraftableCapes) (GPL v3) 移植的 Forge / NeoForge 版本。
+A Minecraft mod that lets you craft and wear any cape — including official Mojang capes, Minecon capes, and more!
 
-可合成 Minecraft 中所有已发布过的披风，通过 Curios API 提供独立的披风饰品栏。
+Originally created as a **Fabric** mod by **[Ryhon0](https://github.com/Ryhon0/CraftableCapes)**.  
+Ported to **NeoForge 1.21.1** by **MayaGuomang**, using the Curios API for cape slot integration.
 
-## 分支
+## Features
 
-| 分支 | 游戏版本 | Mod加载器 | 状态 |
-|------|---------|---------|------|
-| `master` | 1.21.1 | NeoForge | 开发中 |
-| `1.20-forge` | 1.20.1 | Forge | 可用 |
-| `master` (原) | 1.18.2 | Forge | 存档 |
+- **90+ capes** to craft and wear, including:
+  - Official Mojang capes (Minecon 2011-2016, Translator, Migrator, etc.)
+  - Custom community capes (Pride, Twitch, TikTok, Nyan, etc.)
+  - Minecraft Dungeons capes
+- **Online capes** load textures from Mojang's texture servers (with local caching)
+- **Offline capes** use bundled static textures
+- Cape textures render correctly on the player model via `CapeLayer`
+- Random cape displayed as the creative tab icon
+- Non-stackable items (max 1 per slot)
 
-## 依赖
+## Requirements
 
-- [NeoForge](https://neoforged.net/) 21.1.105+
-- [Curios API](https://modrinth.com/mod/curios) (NeoForge 版)
+- **Minecraft**: 1.21.1
+- **NeoForge**: 21.1.105+
+- **Curios API**: 9.5+ for 1.21.1
 
-## 功能
+## Building
 
-- 90+ 种披风物品，涵盖 Mojang 官方披风、Minecon 披风、翻译披风、本地设计披风等
-- 通过 Curios API 提供独立的披风饰品栏
-- 所有披风均有合成配方
-- 创造模式物品栏标签
+```bash
+./gradlew build
+```
 
-## 许可
+The mod jar will be in `build/libs/`.
 
-本项目基于 GPL v3 许可证开源。
+## License
 
-原项目: https://github.com/Ryhon0/CraftableCapes
+This project is licensed under the **GNU General Public License v3.0 (GPL-3.0)**,  
+matching the original Fabric project. See [LICENSE](LICENSE) for details.
+
+## Credits
+
+- **Original Author**: [Ryhon0](https://github.com/Ryhon0) — Fabric version
+- **NeoForge Port**: [MayaGuomang](https://github.com/guomangbigcute)
