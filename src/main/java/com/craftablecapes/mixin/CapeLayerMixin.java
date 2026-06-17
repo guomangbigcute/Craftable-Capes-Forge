@@ -29,9 +29,8 @@ public class CapeLayerMixin {
                               AbstractClientPlayer player, float limbSwing, float limbSwingAmount,
                               float partialTicks, float ageInTicks, float netHeadYaw, float headPitch,
                               CallbackInfo ci) {
-        // If player has a cape equipped in Curios, skip vanilla CapeLayer rendering
-        // Curios ICurioRenderer will handle the rendering instead
-        if (CuriosIntegration.hasCapeEquipped(player)) {
+        boolean hasCape = CuriosIntegration.hasCapeEquipped(player);
+        if (hasCape) {
             ci.cancel();
         }
     }
