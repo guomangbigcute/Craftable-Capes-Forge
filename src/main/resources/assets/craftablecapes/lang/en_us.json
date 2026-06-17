@@ -3,6 +3,7 @@
 	"itemGroup.craftablecapes_capes": "Craftable Capes",
 	"itemGroup.craftablecapes": "Craftable Capes",
 	"curios.identifier.cape": "Cape",
+	"curios.tooltip.slot": "Slot: %s",
 	"tag.item.craftablecapes.capes": "Capes",
 	"item.craftablecapes.10_years_cape": "Founder's Cape",
 	"item.craftablecapes.15_years_cape": "15th Anniversary Cape",

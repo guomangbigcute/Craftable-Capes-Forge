@@ -3,6 +3,7 @@
 	"itemGroup.craftablecapes_capes": "可合成披风",
 	"itemGroup.craftablecapes": "可合成披风",
 	"curios.identifier.cape": "披风",
+	"curios.tooltip.slot": "栏位：%s",
 	"tag.item.craftablecapes.capes": "披风",
 	"item.craftablecapes.10_years_cape": "创始人披风",
 	"item.craftablecapes.15_years_cape": "15周年披风",
