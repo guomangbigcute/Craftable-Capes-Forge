@@ -1,16 +1,16 @@
-[186月2026 02:48:41.761] [main/INFO] [net.neoforged.fml.startup.Entrypoint/]: JVM Uptime at startup: 491ms
-[186月2026 02:48:41.784] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Starting FancyModLoader version 10.0.36 (CLIENT in DEV)
-[186月2026 02:48:41.785] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Game directory: G:\neoforge-1.21.11-test\run
-[186月2026 02:48:41.926] [main/INFO] [net.neoforged.fml.loading.EarlyServiceDiscovery/]: Found 2 early service jars (out of 105) in 63ms
-[186月2026 02:48:41.927] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Loading FML Early Services:
-[186月2026 02:48:41.928] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - C:/Users/yyy/.gradle/caches/modules-2/files-2.1/net.neoforged.fancymodloader/loader/10.0.36/f72ab4d3e755fe736829883d90430a281527aca/loader-10.0.36.jar
-[186月2026 02:48:41.930] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - C:/Users/yyy/.gradle/caches/modules-2/files-2.1/net.neoforged.fancymodloader/earlydisplay/10.0.36/dbd0e11d545443f602addede111c39d9639708f9/earlydisplay-10.0.36.jar
-[186月2026 02:48:41.939] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
-[186月2026 02:48:42.995] [ForkJoinPool.commonPool-worker-6/INFO] [net.neoforged.fml.loading.moddiscovery.locators.GameLocator/]: Detected a joined NeoForge and Minecraft configuration. Applying filtering...
-[186月2026 02:48:43.249] [ForkJoinPool.commonPool-worker-6/INFO] [net.neoforged.fml.loading.moddiscovery.locators.InDevFolderLocator/CORE]: Got mod coordinates craftablecapes%%G:\neoforge-1.21.11-test\build\classes\java\main;craftablecapes%%G:\neoforge-1.21.11-test\build\resources\main from env
-[186月2026 02:48:43.465] [fml-loadingscreen/INFO] [net.neoforged.fml.earlydisplay.render.LoadingScreenRenderer/]: GL info: Intel(R) Iris(R) Xe Graphics GL version 3.3.0 - Build 31.0.101.5186, Intel
-[186月2026 02:48:43.718] [ForkJoinPool.commonPool-worker-6/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
-[186月2026 02:48:43.726] [ForkJoinPool.commonPool-worker-6/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+[186月2026 03:12:27.358] [main/INFO] [net.neoforged.fml.startup.Entrypoint/]: JVM Uptime at startup: 494ms
+[186月2026 03:12:27.387] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Starting FancyModLoader version 10.0.36 (CLIENT in DEV)
+[186月2026 03:12:27.388] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Game directory: G:\neoforge-1.21.11-test\run
+[186月2026 03:12:27.573] [main/INFO] [net.neoforged.fml.loading.EarlyServiceDiscovery/]: Found 2 early service jars (out of 105) in 80ms
+[186月2026 03:12:27.574] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Loading FML Early Services:
+[186月2026 03:12:27.578] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - C:/Users/yyy/.gradle/caches/modules-2/files-2.1/net.neoforged.fancymodloader/loader/10.0.36/f72ab4d3e755fe736829883d90430a281527aca/loader-10.0.36.jar
+[186月2026 03:12:27.581] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - C:/Users/yyy/.gradle/caches/modules-2/files-2.1/net.neoforged.fancymodloader/earlydisplay/10.0.36/dbd0e11d545443f602addede111c39d9639708f9/earlydisplay-10.0.36.jar
+[186月2026 03:12:27.592] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[186月2026 03:12:29.025] [ForkJoinPool.commonPool-worker-5/INFO] [net.neoforged.fml.loading.moddiscovery.locators.GameLocator/]: Detected a joined NeoForge and Minecraft configuration. Applying filtering...
+[186月2026 03:12:29.334] [ForkJoinPool.commonPool-worker-5/INFO] [net.neoforged.fml.loading.moddiscovery.locators.InDevFolderLocator/CORE]: Got mod coordinates craftablecapes%%G:\neoforge-1.21.11-test\build\classes\java\main;craftablecapes%%G:\neoforge-1.21.11-test\build\resources\main from env
+[186月2026 03:12:29.547] [fml-loadingscreen/INFO] [net.neoforged.fml.earlydisplay.render.LoadingScreenRenderer/]: GL info: Intel(R) Iris(R) Xe Graphics GL version 3.3.0 - Build 31.0.101.5186, Intel
+[186月2026 03:12:29.860] [ForkJoinPool.commonPool-worker-5/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
+[186月2026 03:12:29.863] [ForkJoinPool.commonPool-worker-5/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
      Mod List:
 		Name Version (Mod Id)
 
@@ -18,368 +18,372 @@
 		Curios API 14.0.0+1.21.11 (curios)
 		Minecraft 1.21.11 (minecraft)
 		NeoForge 21.11.42 (neoforge)
-[186月2026 02:48:44.595] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/yyy/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/80fc3a9f592673cea87f4cd702f87991c6c9fe4d/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=FML Env=CLIENT
-[186月2026 02:48:44.809] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Loading FML Plugins:
-[186月2026 02:48:44.814] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - G:/neoforge-1.21.11-test/build/moddev/artifacts/neoforge-21.11.42.jar > net.neoforged.neoforge-coremods-21.11.42.jar
-[186月2026 02:48:45.126] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Building game content classloader:
+[186月2026 03:12:31.423] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/yyy/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/80fc3a9f592673cea87f4cd702f87991c6c9fe4d/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=FML Env=CLIENT
+[186月2026 03:12:31.797] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Loading FML Plugins:
+[186月2026 03:12:31.804] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - G:/neoforge-1.21.11-test/build/moddev/artifacts/neoforge-21.11.42.jar > net.neoforged.neoforge-coremods-21.11.42.jar
+[186月2026 03:12:32.527] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Building game content classloader:
  - craftablecapes (composite(folder(G:/neoforge-1.21.11-test/build/classes/java/main), folder(G:/neoforge-1.21.11-test/build/resources/main)))
  - curios (jar(C:/Users/yyy/.gradle/caches/modules-2/files-2.1/maven.modrinth/curios/MPGhs9Rw/82d14ef68875a9801c7b11de5b284439c89e5a82/curios-MPGhs9Rw.jar))
  - minecraft (composite(jar(G:/neoforge-1.21.11-test/build/moddev/artifacts/neoforge-21.11.42-client-extra-aka-minecraft-resources.jar), filtered(jar(G:/neoforge-1.21.11-test/build/moddev/artifacts/neoforge-21.11.42.jar))))
  - mixinextras.neoforge (jar(G:/neoforge-1.21.11-test/build/moddev/artifacts/neoforge-21.11.42.jar > mixinextras-neoforge-0.5.3.jar))
  - neoforge (composite(filtered(jar(G:/neoforge-1.21.11-test/build/moddev/artifacts/neoforge-21.11.42.jar))))
  - net.neoforged.fml.generated (empty(VirtualJar/net.neoforged.fml.generated))
-[186月2026 02:48:45.165] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Built game content classloader in 72ms
-[186月2026 02:48:45.462] [main/WARN] [mixin/]: Reference map 'curios.refmap.json' for curios.mixins.json could not be read. If this is a development environment you can ignore this message
-[186月2026 02:48:47.635] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.3).
-[186月2026 02:48:49.976] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 290 Datafixer optimizations took 1141 milliseconds
-[186月2026 02:49:00.981] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[186月2026 02:49:00.985] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[186月2026 02:49:00.989] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[186月2026 02:49:00.992] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[186月2026 02:49:00.994] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[186月2026 02:49:00.998] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [waypoint, modify, waypoint, color, reset] and [waypoint, modify, waypoint, color, color] with inputs: [reset]
-[186月2026 02:49:01.140] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.11.42, for MC 1.21.11
-[186月2026 02:49:01.197] [modloading-worker-0/INFO] [com.craftablecapes.registry.CapeRegistry/]: Registering Craftable Capes items...
-[186月2026 02:49:01.205] [modloading-worker-0/INFO] [com.craftablecapes.registry.CapeRegistry/]: Registered 0 cape items total!
-[186月2026 02:49:01.208] [modloading-worker-0/INFO] [com.craftablecapes.CraftableCapes/]: Craftable Capes initialized for NeoForge!
-[186月2026 02:49:02.201] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[186月2026 02:49:02.269] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[186月2026 02:49:02.467] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.3+5
-[186月2026 02:49:02.681] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Using optional rendering extensions: GL_ARB_buffer_storage, GL_KHR_debug, GL_ARB_vertex_attrib_binding, GL_ARB_direct_state_access, GL_EXT_texture_filter_anisotropic
-[186月2026 02:49:03.663] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, mod/curios, mod/craftablecapes, mod/neoforge
-[186月2026 02:49:04.821] [resourceLoad/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_pua-17.0.01.hex, loading
-[186月2026 02:49:04.837] [resourceLoad/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-17.0.01.hex, loading
-[186月2026 02:49:05.288] [resourceLoad/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_jp_patch-17.0.01.hex, loading
-[186月2026 02:49:05.375] [resourceLoad/INFO] [com.craftablecapes.client.ClientSetup/]: Registered 94 cape renderers
-[186月2026 02:49:05.379] [resourceLoad/INFO] [com.craftablecapes.client.ClientSetup/]: Started downloading 38 online cape textures
-[186月2026 02:49:05.379] [ForkJoinPool.commonPool-worker-4/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Downloading online cape texture: https://textures.minecraft.net/texture/8f120319222a9f4a104e2f5cb97b2cda93199a2ee9e1585cb8d09d6f687cb761
-[186月2026 02:49:05.382] [ForkJoinPool.commonPool-worker-3/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Downloading online cape texture: https://textures.minecraft.net/texture/9e507afc56359978a3eb3e32367042b853cddd0995d17d0da995662913fb00f7
-[186月2026 02:49:05.406] [ForkJoinPool.commonPool-worker-1/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Downloading online cape texture: https://textures.minecraft.net/texture/a2e8d97ec79100e90a75d369d1b3ba81273c4f82bc1b737e934eed4a854be1b6
-[186月2026 02:49:05.385] [ForkJoinPool.commonPool-worker-6/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Downloading online cape texture: https://textures.minecraft.net/texture/5786fe99be377dfb6858859f926c4dbc995751e91cee373468c5fbf4865e7151
-[186月2026 02:49:05.407] [ForkJoinPool.commonPool-worker-7/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Downloading online cape texture: https://textures.minecraft.net/texture/b0cc08840700447322d953a02b965f1d65a13a603bf64b17c803c21446fe1635
-[186月2026 02:49:05.406] [ForkJoinPool.commonPool-worker-5/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Downloading online cape texture: https://textures.minecraft.net/texture/153b1a0dfcbae953cdeb6f2c2bf6bf79943239b1372780da44bcbb29273131da
-[186月2026 02:49:05.391] [ForkJoinPool.commonPool-worker-2/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Downloading online cape texture: https://textures.minecraft.net/texture/953cac8b779fe41383e675ee2b86071a71658f2180f56fbce8aa315ea70e2ed6
-[186月2026 02:49:07.559] [ForkJoinPool.commonPool-worker-8/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Downloading online cape texture: https://textures.minecraft.net/texture/e7dfea16dc83c97df01a12fabbd1216359c0cd0ea42f9999b6e97c584963e980
-[186月2026 02:49:07.584] [ForkJoinPool.commonPool-worker-9/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Downloading online cape texture: https://textures.minecraft.net/texture/1bf91499701404e21bd46b0191d63239a4ef76ebde88d27e4d430ac211df681e
-[186月2026 02:49:07.826] [ForkJoinPool.commonPool-worker-10/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Downloading online cape texture: https://textures.minecraft.net/texture/2262fb1d24912209490586ecae98aca8500df3eff91f2a07da37ee524e7e3cb6
-[186月2026 02:49:07.987] [ForkJoinPool.commonPool-worker-11/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Downloading online cape texture: https://textures.minecraft.net/texture/ca29f5dd9e94fb1748203b92e36b66fda80750c87ebc18d6eafdb0e28cc1d05f
-[186月2026 02:49:08.107] [ForkJoinPool.commonPool-worker-12/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Downloading online cape texture: https://textures.minecraft.net/texture/70efffaf86fe5bc089608d3cb297d3e276b9eb7a8f9f2fe6659c23a2d8b18edf
-[186月2026 02:49:08.123] [ForkJoinPool.commonPool-worker-13/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Downloading online cape texture: https://textures.minecraft.net/texture/bcfbe84c6542a4a5c213c1cacf8979b5e913dcb4ad783a8b80e3c4a7d5c8bdac
-[186月2026 02:49:08.186] [ForkJoinPool.commonPool-worker-14/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Downloading online cape texture: https://textures.minecraft.net/texture/23ec737f18bfe4b547c95935fc297dd767bb84ee55bfd855144d279ac9bfd9fe
-[186月2026 02:49:08.778] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/mcd_glow_cape:
+[186月2026 03:12:32.609] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Built game content classloader in 226ms
+[186月2026 03:12:32.848] [main/WARN] [mixin/]: Reference map 'curios.refmap.json' for curios.mixins.json could not be read. If this is a development environment you can ignore this message
+[186月2026 03:12:35.614] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.3).
+[186月2026 03:12:39.381] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 290 Datafixer optimizations took 2266 milliseconds
+[186月2026 03:12:51.196] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[186月2026 03:12:51.199] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[186月2026 03:12:51.205] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[186月2026 03:12:51.210] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[186月2026 03:12:51.214] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[186月2026 03:12:51.218] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [waypoint, modify, waypoint, color, reset] and [waypoint, modify, waypoint, color, color] with inputs: [reset]
+[186月2026 03:12:51.396] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.11.42, for MC 1.21.11
+[186月2026 03:12:51.461] [modloading-worker-0/INFO] [com.craftablecapes.registry.CapeRegistry/]: Registering Craftable Capes items...
+[186月2026 03:12:51.470] [modloading-worker-0/INFO] [com.craftablecapes.registry.CapeRegistry/]: Registered 0 cape items total!
+[186月2026 03:12:51.474] [modloading-worker-0/INFO] [com.craftablecapes.CraftableCapes/]: Craftable Capes initialized for NeoForge!
+[186月2026 03:12:52.759] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[186月2026 03:12:52.798] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[186月2026 03:12:52.974] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.3+5
+[186月2026 03:12:53.184] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Using optional rendering extensions: GL_ARB_buffer_storage, GL_KHR_debug, GL_ARB_vertex_attrib_binding, GL_ARB_direct_state_access, GL_EXT_texture_filter_anisotropic
+[186月2026 03:12:54.175] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, mod/curios, mod/craftablecapes, mod/neoforge
+[186月2026 03:12:55.227] [resourceLoad/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-17.0.01.hex, loading
+[186月2026 03:12:55.253] [resourceLoad/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_pua-17.0.01.hex, loading
+[186月2026 03:12:55.875] [resourceLoad/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_jp_patch-17.0.01.hex, loading
+[186月2026 03:12:55.947] [resourceLoad/INFO] [com.craftablecapes.client.ClientSetup/]: Registered 94 cape renderers
+[186月2026 03:12:55.954] [resourceLoad/INFO] [com.craftablecapes.client.ClientSetup/]: Started downloading 38 online cape textures
+[186月2026 03:12:55.955] [ForkJoinPool.commonPool-worker-5/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Downloading online cape texture: https://textures.minecraft.net/texture/8f120319222a9f4a104e2f5cb97b2cda93199a2ee9e1585cb8d09d6f687cb761
+[186月2026 03:12:55.955] [ForkJoinPool.commonPool-worker-6/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Downloading online cape texture: https://textures.minecraft.net/texture/953cac8b779fe41383e675ee2b86071a71658f2180f56fbce8aa315ea70e2ed6
+[186月2026 03:12:55.955] [ForkJoinPool.commonPool-worker-1/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Downloading online cape texture: https://textures.minecraft.net/texture/9e507afc56359978a3eb3e32367042b853cddd0995d17d0da995662913fb00f7
+[186月2026 03:12:55.955] [ForkJoinPool.commonPool-worker-2/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Downloading online cape texture: https://textures.minecraft.net/texture/5786fe99be377dfb6858859f926c4dbc995751e91cee373468c5fbf4865e7151
+[186月2026 03:12:55.957] [ForkJoinPool.commonPool-worker-7/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Downloading online cape texture: https://textures.minecraft.net/texture/153b1a0dfcbae953cdeb6f2c2bf6bf79943239b1372780da44bcbb29273131da
+[186月2026 03:12:55.955] [ForkJoinPool.commonPool-worker-3/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Downloading online cape texture: https://textures.minecraft.net/texture/a2e8d97ec79100e90a75d369d1b3ba81273c4f82bc1b737e934eed4a854be1b6
+[186月2026 03:12:56.034] [ForkJoinPool.commonPool-worker-4/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Downloading online cape texture: https://textures.minecraft.net/texture/b0cc08840700447322d953a02b965f1d65a13a603bf64b17c803c21446fe1635
+[186月2026 03:12:57.950] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/mcd_glow_cape:
     minecraft:block_or_item:craftablecapes:capes/mcd_glow
-[186月2026 02:49:08.779] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/nyan_cape:
+[186月2026 03:12:57.951] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/nyan_cape:
     minecraft:block_or_item:craftablecapes:capes/nyan
-[186月2026 02:49:08.779] [ForkJoinPool.commonPool-worker-8/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Downloading online cape texture: https://textures.minecraft.net/texture/2e002d5e1758e79ba51d08d92a0f3a95119f2f435ae7704916507b6c565a7da8
-[186月2026 02:49:08.790] [ForkJoinPool.commonPool-worker-4/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Downloading online cape texture: https://textures.minecraft.net/texture/d8f8d13a1adf9636a16c31d47f3ecc9bb8d8533108aa5ad2a01b13b1a0c55eac
-[186月2026 02:49:08.795] [Render thread/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Registered online cape texture: craftablecapes:textures/capes/online_e7dfea16.png
-[186月2026 02:49:08.796] [Render thread/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Registered online cape texture: craftablecapes:textures/capes/online_8f120319.png
-[186月2026 02:49:08.798] [ForkJoinPool.commonPool-worker-15/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Downloading online cape texture: https://textures.minecraft.net/texture/5048ea61566353397247d2b7d946034de926b997d5e66c86483dfb1e031aee95
-[186月2026 02:49:08.820] [ForkJoinPool.commonPool-worker-6/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Downloading online cape texture: https://textures.minecraft.net/texture/2056f2eebd759cce93460907186ef44e9192954ae12b227d817eb4b55627a7fc
-[186月2026 02:49:08.780] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/minecon_12_cape:
+[186月2026 03:12:57.952] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/minecon_12_cape:
     minecraft:block_or_item:craftablecapes:capes/minecon_12
-[186月2026 02:49:08.826] [Render thread/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Registered online cape texture: craftablecapes:textures/capes/online_5786fe99.png
-[186月2026 02:49:08.829] [ForkJoinPool.commonPool-worker-3/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Downloading online cape texture: https://textures.minecraft.net/texture/3efadf6510961830f9fcc077f19b4daf286d502b5f5aafbd807c7bbffcaca245
-[186月2026 02:49:08.829] [ForkJoinPool.commonPool-worker-9/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Downloading online cape texture: https://textures.minecraft.net/texture/ca35c56efe71ed290385f4ab5346a1826b546a54d519e6a3ff01efa01acce81
-[186月2026 02:49:08.829] [ForkJoinPool.commonPool-worker-11/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Downloading online cape texture: https://textures.minecraft.net/texture/ae677f7d98ac70a533713518416df4452fe5700365c09cf45d0d156ea9396551
-[186月2026 02:49:08.840] [ForkJoinPool.commonPool-worker-7/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Downloading online cape texture: https://textures.minecraft.net/texture/17912790ff164b93196f08ba71d0e62129304776d0f347334f8a6eae509f8a56
-[186月2026 02:49:08.844] [Render thread/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Registered online cape texture: craftablecapes:textures/capes/online_9e507afc.png
-[186月2026 02:49:08.855] [Render thread/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Registered online cape texture: craftablecapes:textures/capes/online_1bf91499.png
-[186月2026 02:49:08.854] [ForkJoinPool.commonPool-worker-2/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Downloading online cape texture: https://textures.minecraft.net/texture/2340c0e03dd24a11b15a8b33c2a7e9e32abb2051b2481d0ba7defd635ca7a933
-[186月2026 02:49:08.824] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/new_mojang_cape:
+[186月2026 03:12:57.953] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/new_mojang_cape:
     minecraft:block_or_item:craftablecapes:capes/online_9e507afc
-[186月2026 02:49:08.856] [Render thread/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Registered online cape texture: craftablecapes:textures/capes/online_ca29f5dd.png
-[186月2026 02:49:08.857] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/minecon_2013_cape:
+[186月2026 03:12:57.953] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/minecon_2013_cape:
     minecraft:block_or_item:craftablecapes:capes/online_153b1a0d
-[186月2026 02:49:08.858] [Render thread/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Registered online cape texture: craftablecapes:textures/capes/online_b0cc0884.png
-[186月2026 02:49:08.858] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/mojang_office_cape:
+[186月2026 03:12:57.953] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/mojang_office_cape:
     minecraft:block_or_item:craftablecapes:capes/online_5c294100
-[186月2026 02:49:08.859] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/mcd_hero_cape:
+[186月2026 03:12:57.954] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/mcd_hero_cape:
     minecraft:block_or_item:craftablecapes:capes/mcd_hero
-[186月2026 02:49:08.858] [Render thread/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Registered online cape texture: craftablecapes:textures/capes/online_953cac8b.png
-[186月2026 02:49:08.859] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/snail_cape:
+[186月2026 03:12:57.954] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/snail_cape:
     minecraft:block_or_item:craftablecapes:capes/snail
-[186月2026 02:49:08.863] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/minecon_11_cape:
+[186月2026 03:12:57.955] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/minecon_11_cape:
     minecraft:block_or_item:craftablecapes:capes/minecon_11
-[186月2026 02:49:08.866] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/db_cape:
-    minecraft:block_or_item:craftablecapes:capes/online_bcfbe84c
-[186月2026 02:49:08.866] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/prismarine_cape:
+[186月2026 03:12:57.955] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/prismarine_cape:
     minecraft:block_or_item:craftablecapes:capes/online_d8f8d13a
-[186月2026 02:49:08.867] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/migrator_cape:
+[186月2026 03:12:57.955] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/db_cape:
+    minecraft:block_or_item:craftablecapes:capes/online_bcfbe84c
+[186月2026 03:12:57.955] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/migrator_cape:
     minecraft:block_or_item:craftablecapes:capes/online_2340c0e0
-[186月2026 02:49:08.867] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/turtle_cape:
+[186月2026 03:12:57.956] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/turtle_cape:
     minecraft:block_or_item:craftablecapes:capes/online_5048ea61
-[186月2026 02:49:08.868] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/mcd_fauna_faire_cape:
+[186月2026 03:12:57.956] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/mcd_fauna_faire_cape:
     minecraft:block_or_item:craftablecapes:capes/mcd_fauna_faire
-[186月2026 02:49:08.868] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/mojira_cape:
+[186月2026 03:12:57.956] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/mojira_cape:
     minecraft:block_or_item:craftablecapes:capes/online_ae677f7d
-[186月2026 02:49:08.868] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/yearn_cape:
+[186月2026 03:12:57.956] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/yearn_cape:
     minecraft:block_or_item:craftablecapes:capes/online_308b32a9
-[186月2026 02:49:08.868] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/twitch_cape:
+[186月2026 03:12:57.957] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/twitch_cape:
     minecraft:block_or_item:craftablecapes:capes/twitch
-[186月2026 02:49:08.869] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/menace_cape:
+[186月2026 03:12:57.957] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/menace_cape:
     minecraft:block_or_item:craftablecapes:capes/online_dbc21e22
-[186月2026 02:49:08.869] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/moonlight_trail_cape:
+[186月2026 03:12:57.958] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/moonlight_trail_cape:
     minecraft:block_or_item:craftablecapes:capes/online_fe8a02df
-[186月2026 02:49:08.869] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/minecon_6_cape:
+[186月2026 03:12:57.959] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/minecon_6_cape:
     minecraft:block_or_item:craftablecapes:capes/minecon_6
-[186月2026 02:49:08.870] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/minecon_2012_cape:
+[186月2026 03:12:57.960] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/minecon_2012_cape:
     minecraft:block_or_item:craftablecapes:capes/online_a2e8d97e
-[186月2026 02:49:08.870] [ForkJoinPool.commonPool-worker-5/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Downloading online cape texture: https://textures.minecraft.net/texture/f9a76537647989f9a0b6d001e320dac591c359e9e61a31f4ce11c88f207f0ad4
-[186月2026 02:49:08.870] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/minecon_2015_cape:
+[186月2026 03:12:57.960] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/minecon_2015_cape:
     minecraft:block_or_item:craftablecapes:capes/online_b0cc0884
-[186月2026 02:49:08.870] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/villager_rescue_cape:
+[186月2026 03:12:57.960] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/villager_rescue_cape:
     minecraft:block_or_item:craftablecapes:capes/villager_rescue
-[186月2026 02:49:08.880] [Render thread/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Registered online cape texture: craftablecapes:textures/capes/online_153b1a0d.png
-[186月2026 02:49:08.882] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/minecon_16_cape:
+[186月2026 03:12:57.961] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/minecon_16_cape:
     minecraft:block_or_item:craftablecapes:capes/minecon_16
-[186月2026 02:49:08.882] [Render thread/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Registered online cape texture: craftablecapes:textures/capes/online_a2e8d97e.png
-[186月2026 02:49:08.882] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/birthday_cape:
+[186月2026 03:12:57.961] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/birthday_cape:
     minecraft:block_or_item:craftablecapes:capes/online_2056f2ee
-[186月2026 02:49:08.883] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/realms_cape:
+[186月2026 03:12:57.961] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/realms_cape:
     minecraft:block_or_item:craftablecapes:capes/online_17912790
-[186月2026 02:49:08.883] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/minecon_10_cape:
+[186月2026 03:12:57.961] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/minecon_10_cape:
     minecraft:block_or_item:craftablecapes:capes/minecon_10
-[186月2026 02:49:08.884] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/minecon_13_cape:
+[186月2026 03:12:57.961] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/minecon_13_cape:
     minecraft:block_or_item:craftablecapes:capes/minecon_13
-[186月2026 02:49:08.885] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/vanilla_cape:
+[186月2026 03:12:57.962] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/vanilla_cape:
     minecraft:block_or_item:craftablecapes:capes/online_f9a76537
-[186月2026 02:49:08.885] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/mcd_cow_crusader_cape:
+[186月2026 03:12:57.962] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/mcd_cow_crusader_cape:
     minecraft:block_or_item:craftablecapes:capes/mcd_cow_crusader
-[186月2026 02:49:08.885] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/millionth_cape:
+[186月2026 03:12:57.962] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/millionth_cape:
     minecraft:block_or_item:craftablecapes:capes/online_70efffaf
-[186月2026 02:49:08.885] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/oxeye_cape:
+[186月2026 03:12:57.963] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/oxeye_cape:
     minecraft:block_or_item:craftablecapes:capes/online_7706b5f5
-[186月2026 02:49:08.886] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/mcd_prism_cape:
+[186月2026 03:12:57.963] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/mcd_prism_cape:
     minecraft:block_or_item:craftablecapes:capes/mcd_prism
-[186月2026 02:49:08.887] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/old_mojang_cape:
+[186月2026 03:12:57.963] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/old_mojang_cape:
     minecraft:block_or_item:craftablecapes:capes/online_8f120319
-[186月2026 02:49:08.887] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/document_cape:
+[186月2026 03:12:57.963] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/document_cape:
     minecraft:block_or_item:craftablecapes:capes/online_fdcf48f0
-[186月2026 02:49:08.887] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/mcd_mystery_cape:
+[186月2026 03:12:57.963] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/mcd_mystery_cape:
     minecraft:block_or_item:craftablecapes:capes/mcd_mystery
-[186月2026 02:49:08.887] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/minecon_7_cape:
+[186月2026 03:12:57.964] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/minecon_7_cape:
     minecraft:block_or_item:craftablecapes:capes/minecon_7
-[186月2026 02:49:08.887] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/squid_cape:
+[186月2026 03:12:57.964] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/squid_cape:
     minecraft:block_or_item:craftablecapes:capes/squid
-[186月2026 02:49:08.888] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/minecon_4_cape:
+[186月2026 03:12:57.964] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/minecon_4_cape:
     minecraft:block_or_item:craftablecapes:capes/minecon_4
-[186月2026 02:49:08.888] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/xbox_cape:
+[186月2026 03:12:57.964] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/xbox_cape:
     minecraft:block_or_item:craftablecapes:capes/xbox
-[186月2026 02:49:08.888] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/awesom_cape:
+[186月2026 03:12:57.964] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/awesom_cape:
     minecraft:block_or_item:craftablecapes:capes/awesom
-[186月2026 02:49:08.889] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/cobalt_cape:
+[186月2026 03:12:57.965] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/cobalt_cape:
     minecraft:block_or_item:craftablecapes:capes/online_ca35c56e
-[186月2026 02:49:08.889] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/translator_cn_cape:
+[186月2026 03:12:57.965] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/translator_cn_cape:
     minecraft:block_or_item:craftablecapes:capes/online_2262fb1d
-[186月2026 02:49:08.889] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/mcd_blue_cape:
+[186月2026 03:12:57.966] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/mcd_blue_cape:
     minecraft:block_or_item:craftablecapes:capes/mcd_blue
-[186月2026 02:49:08.873] [ForkJoinPool.commonPool-worker-1/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Downloading online cape texture: https://textures.minecraft.net/texture/afd553b39358a24edfe3b8a9a939fa5fa4faa4d9a9c3d6af8eafb377fa05c2bb
-[186月2026 02:49:08.891] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/common_cape:
+[186月2026 03:12:57.966] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/common_cape:
     minecraft:block_or_item:craftablecapes:capes/online_5ec930cd
-[186月2026 02:49:08.898] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/xmas_cape:
+[186月2026 03:12:57.966] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/xmas_cape:
     minecraft:block_or_item:craftablecapes:capes/xmas
-[186月2026 02:49:08.898] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/bacon_cape:
+[186月2026 03:12:57.966] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/bacon_cape:
     minecraft:block_or_item:craftablecapes:capes/bacon
-[186月2026 02:49:08.899] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/valentine_cape:
+[186月2026 03:12:57.966] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/valentine_cape:
     minecraft:block_or_item:craftablecapes:capes/valentine
-[186月2026 02:49:08.899] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/builder_cape:
+[186月2026 03:12:57.967] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/builder_cape:
     minecraft:block_or_item:craftablecapes:capes/online_2c579968
-[186月2026 02:49:08.899] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/mojang_cape:
+[186月2026 03:12:57.967] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/mojang_cape:
     minecraft:block_or_item:craftablecapes:capes/online_5786fe99
-[186月2026 02:49:08.899] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/mcd_hammer_cape:
+[186月2026 03:12:57.968] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/mcd_hammer_cape:
     minecraft:block_or_item:craftablecapes:capes/mcd_hammer
-[186月2026 02:49:08.900] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/frog_cape:
+[186月2026 03:12:57.968] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/frog_cape:
     minecraft:block_or_item:craftablecapes:capes/frog
-[186月2026 02:49:08.900] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/no_circle_cape:
+[186月2026 03:12:57.968] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/no_circle_cape:
     minecraft:block_or_item:craftablecapes:capes/no_circle
-[186月2026 02:49:08.900] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/mcc15_cape:
+[186月2026 03:12:57.968] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/mcc15_cape:
     minecraft:block_or_item:craftablecapes:capes/mcc15
-[186月2026 02:49:08.900] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/4j_studio_cape:
-    minecraft:block_or_item:craftablecapes:capes/4j_studio
-[186月2026 02:49:08.901] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/snowman_cape:
+[186月2026 03:12:57.969] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/snowman_cape:
     minecraft:block_or_item:craftablecapes:capes/online_23ec737f
-[186月2026 02:49:08.901] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/minecon_15_cape:
+[186月2026 03:12:57.969] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/4j_studio_cape:
+    minecraft:block_or_item:craftablecapes:capes/4j_studio
+[186月2026 03:12:57.970] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/minecon_15_cape:
     minecraft:block_or_item:craftablecapes:capes/minecon_15
-[186月2026 02:49:08.901] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/sniffer_cape:
+[186月2026 03:12:57.970] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/sniffer_cape:
     minecraft:block_or_item:craftablecapes:capes/sniffer
-[186月2026 02:49:08.901] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/minecon_14_cape:
+[186月2026 03:12:57.970] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/minecon_14_cape:
     minecraft:block_or_item:craftablecapes:capes/minecon_14
-[186月2026 02:49:08.901] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/mcd_turtle_shell_cape:
+[186月2026 03:12:57.970] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/mcd_turtle_shell_cape:
     minecraft:block_or_item:craftablecapes:capes/mcd_turtle_shell
-[186月2026 02:49:08.901] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/mcd_amethyst_cape:
+[186月2026 03:12:57.971] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/mcd_amethyst_cape:
     minecraft:block_or_item:craftablecapes:capes/mcd_amethyst
-[186月2026 02:49:08.902] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/scrolls_cape:
+[186月2026 03:12:57.971] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/scrolls_cape:
     minecraft:block_or_item:craftablecapes:capes/online_3efadf65
-[186月2026 02:49:08.902] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/home_cape:
+[186月2026 03:12:57.971] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/home_cape:
     minecraft:block_or_item:craftablecapes:capes/online_1de21419
-[186月2026 02:49:08.903] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/copper_cape:
+[186月2026 03:12:57.971] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/copper_cape:
     minecraft:block_or_item:craftablecapes:capes/online_5e6f3193
-[186月2026 02:49:08.903] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/translator_cape:
+[186月2026 03:12:57.972] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/translator_cape:
     minecraft:block_or_item:craftablecapes:capes/online_1bf91499
-[186月2026 02:49:08.942] [ForkJoinPool.commonPool-worker-10/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Downloading online cape texture: https://textures.minecraft.net/texture/cd9d82ab17fd92022dbd4a86cde4c382a7540e117fae7b9a2853658505a80625
-[186月2026 02:49:08.949] [Render thread/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Registered online cape texture: craftablecapes:textures/capes/online_2262fb1d.png
-[186月2026 02:49:08.904] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/nye_2011_cape:
+[186月2026 03:12:57.972] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/nye_2011_cape:
     minecraft:block_or_item:craftablecapes:capes/nye_2011
-[186月2026 02:49:08.952] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/minecon_9_cape:
+[186月2026 03:12:57.972] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/minecon_9_cape:
     minecraft:block_or_item:craftablecapes:capes/minecon_9
-[186月2026 02:49:08.953] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/minecon_2016_cape:
+[186月2026 03:12:57.972] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/minecon_2016_cape:
     minecraft:block_or_item:craftablecapes:capes/online_e7dfea16
-[186月2026 02:49:08.953] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/mcd_iceologer_cape:
+[186月2026 03:12:57.972] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/mcd_iceologer_cape:
     minecraft:block_or_item:craftablecapes:capes/mcd_iceologer
-[186月2026 02:49:08.953] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/mcd_downpour_cape:
+[186月2026 03:12:57.973] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/mcd_downpour_cape:
     minecraft:block_or_item:craftablecapes:capes/mcd_downpour
-[186月2026 02:49:08.953] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/minecon_3_cape:
+[186月2026 03:12:57.973] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/minecon_3_cape:
     minecraft:block_or_item:craftablecapes:capes/minecon_3
-[186月2026 02:49:08.954] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/mcd_year_1_cape:
+[186月2026 03:12:57.973] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/mcd_year_1_cape:
     minecraft:block_or_item:craftablecapes:capes/mcd_year_1
-[186月2026 02:49:08.954] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/pride_cape:
+[186月2026 03:12:57.973] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/pride_cape:
     minecraft:block_or_item:craftablecapes:capes/pride
-[186月2026 02:49:08.954] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/mcd_phantom_cape:
+[186月2026 03:12:57.973] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/mcd_phantom_cape:
     minecraft:block_or_item:craftablecapes:capes/mcd_phantom
-[186月2026 02:49:08.955] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/15_years_cape:
+[186月2026 03:12:57.974] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/15_years_cape:
     minecraft:block_or_item:craftablecapes:capes/online_cd9d82ab
-[186月2026 02:49:08.955] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/crafter_cape:
+[186月2026 03:12:57.974] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/crafter_cape:
     minecraft:block_or_item:craftablecapes:capes/online_479eacef
-[186月2026 02:49:08.955] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/mcd_cloudy_climb_cape:
+[186月2026 03:12:57.974] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/mcd_cloudy_climb_cape:
     minecraft:block_or_item:craftablecapes:capes/mcd_cloudy_climb
-[186月2026 02:49:08.955] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/minecon_5_cape:
-    minecraft:block_or_item:craftablecapes:capes/minecon_5
-[186月2026 02:49:08.955] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/mcd_soul_cape:
-    minecraft:block_or_item:craftablecapes:capes/mcd_soul
-[186月2026 02:49:08.955] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/mcd_red_royal_cape:
+[186月2026 03:12:57.974] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/mcd_red_royal_cape:
     minecraft:block_or_item:craftablecapes:capes/mcd_red_royal
-[186月2026 02:49:08.955] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/pancape_cape:
+[186月2026 03:12:57.975] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/minecon_5_cape:
+    minecraft:block_or_item:craftablecapes:capes/minecon_5
+[186月2026 03:12:57.975] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/mcd_soul_cape:
+    minecraft:block_or_item:craftablecapes:capes/mcd_soul
+[186月2026 03:12:57.976] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/pancape_cape:
     minecraft:block_or_item:craftablecapes:capes/pancape
-[186月2026 02:49:08.956] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/zombie_horse_cape:
+[186月2026 03:12:57.976] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/zombie_horse_cape:
     minecraft:block_or_item:craftablecapes:capes/online_a3f6e4f1
-[186月2026 02:49:08.957] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/minecon_8_cape:
+[186月2026 03:12:57.978] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/minecon_8_cape:
     minecraft:block_or_item:craftablecapes:capes/minecon_8
-[186月2026 02:49:08.957] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/veterinarian_cape:
+[186月2026 03:12:57.979] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/veterinarian_cape:
     minecraft:block_or_item:craftablecapes:capes/veterinarian
-[186月2026 02:49:08.957] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/tiktok_cape:
+[186月2026 03:12:57.979] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/tiktok_cape:
     minecraft:block_or_item:craftablecapes:capes/tiktok
-[186月2026 02:49:08.958] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/translator_jp_cape:
+[186月2026 03:12:57.980] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/translator_jp_cape:
     minecraft:block_or_item:craftablecapes:capes/online_ca29f5dd
-[186月2026 02:49:08.958] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/xbox_bday_cape:
+[186月2026 03:12:57.980] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/xbox_bday_cape:
     minecraft:block_or_item:craftablecapes:capes/xbox_bday
-[186月2026 02:49:08.958] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/blonk_cape:
+[186月2026 03:12:57.980] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/blonk_cape:
     minecraft:block_or_item:craftablecapes:capes/blonk
-[186月2026 02:49:08.958] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/spade_cape:
+[186月2026 03:12:57.981] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/spade_cape:
     minecraft:block_or_item:craftablecapes:capes/online_2e002d5e
-[186月2026 02:49:08.959] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/10_years_cape:
+[186月2026 03:12:57.981] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/10_years_cape:
     minecraft:block_or_item:craftablecapes:capes/10_years
-[186月2026 02:49:08.959] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/mcd_luminous_night_cape:
-    minecraft:block_or_item:craftablecapes:capes/mcd_luminous_night
-[186月2026 02:49:08.959] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/mcd_year_2_cape:
+[186月2026 03:12:57.981] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/mcd_year_2_cape:
     minecraft:block_or_item:craftablecapes:capes/mcd_year_2
-[186月2026 02:49:08.961] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/cherry_blossom_cape:
+[186月2026 03:12:57.981] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/mcd_luminous_night_cape:
+    minecraft:block_or_item:craftablecapes:capes/mcd_luminous_night
+[186月2026 03:12:57.982] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/cherry_blossom_cape:
     minecraft:block_or_item:craftablecapes:capes/online_afd553b3
-[186月2026 02:49:08.961] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/minecon_2011_cape:
+[186月2026 03:12:57.982] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model craftablecapes:item/minecon_2011_cape:
     minecraft:block_or_item:craftablecapes:capes/online_953cac8b
-[186月2026 02:49:09.013] [ForkJoinPool.commonPool-worker-13/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Downloading online cape texture: https://textures.minecraft.net/texture/5c29410057e32abec02d870ecb52ec25fb45ea81e785a7854ae8429d7236ca26
-[186月2026 02:49:09.017] [Render thread/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Registered online cape texture: craftablecapes:textures/capes/online_bcfbe84c.png
-[186月2026 02:49:09.017] [ForkJoinPool.commonPool-worker-14/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Downloading online cape texture: https://textures.minecraft.net/texture/308b32a9e303155a0b4262f9e5483ad4a22e3412e84fe8385a0bdd73dc41fa89
-[186月2026 02:49:09.034] [Render thread/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Registered online cape texture: craftablecapes:textures/capes/online_23ec737f.png
-[186月2026 02:49:09.069] [ForkJoinPool.commonPool-worker-12/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Downloading online cape texture: https://textures.minecraft.net/texture/1de21419009db483900da6298a1e6cbf9f1bc1523a0dcdc16263fab150693edd
-[186月2026 02:49:09.084] [Render thread/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Registered online cape texture: craftablecapes:textures/capes/online_70efffaf.png
-[186月2026 02:49:09.106] [ForkJoinPool.commonPool-worker-16/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Downloading online cape texture: https://textures.minecraft.net/texture/dbc21e222528e30dc88445314f7be6ff12d3aeebc3c192054fba7e3b3f8c77b1
-[186月2026 02:49:09.151] [ForkJoinPool.commonPool-worker-17/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Downloading online cape texture: https://textures.minecraft.net/texture/5ec930cdd2629c8771655c60eebeb867b4b6559b0e6d3bc71c40c96347fa03f0
-[186月2026 02:49:09.253] [ForkJoinPool.commonPool-worker-18/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Downloading online cape texture: https://textures.minecraft.net/texture/fdcf48f01ec480d1d7cbec27f7ddce48c9da2be6724641109444dae58d4cd013
-[186月2026 02:49:09.444] [ForkJoinPool.commonPool-worker-4/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Downloading online cape texture: https://textures.minecraft.net/texture/a3f6e4f14801f3ea55e3d95b9b4ef3b5e8802d947f669de93d6ec4b9354a436b
-[186月2026 02:49:09.462] [ForkJoinPool.commonPool-worker-3/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Downloading online cape texture: https://textures.minecraft.net/texture/fe8a02dfe9e390e44ff33d69feef9d3943f76d3901015bbd50f0b67722d288bd
-[186月2026 02:49:09.482] [ForkJoinPool.commonPool-worker-7/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Downloading online cape texture: https://textures.minecraft.net/texture/479eacefa3cdd7aca94207f36c0dd449653ddf259daf40544a5866baf05eee22
-[186月2026 02:49:09.490] [ForkJoinPool.commonPool-worker-8/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Downloading online cape texture: https://textures.minecraft.net/texture/2c579968c64c1719740fd8c2a451461879b238002574fce48f7d1a7c36a1c7d4
-[186月2026 02:49:09.529] [ForkJoinPool.commonPool-worker-9/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Downloading online cape texture: https://textures.minecraft.net/texture/7706b5f5fc90329691e59277dcc66ba20572219fa8e5da472afd5235fad12cc8
-[186月2026 02:49:09.572] [ForkJoinPool.commonPool-worker-6/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Downloading online cape texture: https://textures.minecraft.net/texture/5e6f3193e74cd16cdd6637d9bae5484e3a37ff2a14c2d157c659a07810b1bdca
-[186月2026 02:49:09.741] [Render thread/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Registered online cape texture: craftablecapes:textures/capes/online_d8f8d13a.png
-[186月2026 02:49:09.741] [Render thread/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Registered online cape texture: craftablecapes:textures/capes/online_3efadf65.png
-[186月2026 02:49:09.742] [Render thread/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Registered online cape texture: craftablecapes:textures/capes/online_17912790.png
-[186月2026 02:49:09.743] [Render thread/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Registered online cape texture: craftablecapes:textures/capes/online_2e002d5e.png
-[186月2026 02:49:09.743] [Render thread/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Registered online cape texture: craftablecapes:textures/capes/online_ca35c56e.png
-[186月2026 02:49:09.744] [Render thread/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Registered online cape texture: craftablecapes:textures/capes/online_2056f2ee.png
-[186月2026 02:49:09.744] [Render thread/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Registered online cape texture: craftablecapes:textures/capes/online_afd553b3.png
-[186月2026 02:49:09.744] [Render thread/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Registered online cape texture: craftablecapes:textures/capes/online_5c294100.png
-[186月2026 02:49:09.745] [Render thread/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Registered online cape texture: craftablecapes:textures/capes/online_2340c0e0.png
-[186月2026 02:49:09.745] [Render thread/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Registered online cape texture: craftablecapes:textures/capes/online_cd9d82ab.png
-[186月2026 02:49:09.746] [Render thread/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Registered online cape texture: craftablecapes:textures/capes/online_f9a76537.png
-[186月2026 02:49:09.746] [Render thread/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Registered online cape texture: craftablecapes:textures/capes/online_ae677f7d.png
-[186月2026 02:49:09.747] [Render thread/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Registered online cape texture: craftablecapes:textures/capes/online_5048ea61.png
-[186月2026 02:49:10.210] [Render thread/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Registered online cape texture: craftablecapes:textures/capes/online_5ec930cd.png
-[186月2026 02:49:10.212] [Render thread/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Registered online cape texture: craftablecapes:textures/capes/online_dbc21e22.png
-[186月2026 02:49:10.213] [Render thread/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Registered online cape texture: craftablecapes:textures/capes/online_1de21419.png
-[186月2026 02:49:10.214] [Render thread/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Registered online cape texture: craftablecapes:textures/capes/online_308b32a9.png
-[186月2026 02:49:10.214] [Render thread/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Registered online cape texture: craftablecapes:textures/capes/online_479eacef.png
-[186月2026 02:49:10.215] [Render thread/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Registered online cape texture: craftablecapes:textures/capes/online_fe8a02df.png
-[186月2026 02:49:10.217] [Render thread/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Registered online cape texture: craftablecapes:textures/capes/online_a3f6e4f1.png
-[186月2026 02:49:10.218] [Render thread/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Registered online cape texture: craftablecapes:textures/capes/online_2c579968.png
-[186月2026 02:49:10.219] [Render thread/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Registered online cape texture: craftablecapes:textures/capes/online_fdcf48f0.png
-[186月2026 02:49:10.220] [Render thread/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Registered online cape texture: craftablecapes:textures/capes/online_7706b5f5.png
-[186月2026 02:49:10.221] [Render thread/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Registered online cape texture: craftablecapes:textures/capes/online_5e6f3193.png
-[186月2026 02:49:10.800] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Speaker (Realtek(R) Audio)
-[186月2026 02:49:10.801] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
-[186月2026 02:49:10.802] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
-[186月2026 02:49:10.888] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/decorated_pot.png-atlas
-[186月2026 02:49:10.900] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x1024x0 minecraft:textures/atlas/armor_trims.png-atlas
-[186月2026 02:49:11.098] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
-[186月2026 02:49:11.122] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/shield_patterns.png-atlas
-[186月2026 02:49:11.146] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x2048x4 minecraft:textures/atlas/blocks.png-atlas
-[186月2026 02:49:12.607] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x0 minecraft:textures/atlas/chest.png-atlas
-[186月2026 02:49:12.625] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 minecraft:textures/atlas/celestials.png-atlas
-[186月2026 02:49:12.640] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/banner_patterns.png-atlas
-[186月2026 02:49:12.670] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x0 minecraft:textures/atlas/beds.png-atlas
-[186月2026 02:49:12.684] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/items.png-atlas
-[186月2026 02:49:13.030] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x0 minecraft:textures/atlas/gui.png-atlas
-[186月2026 02:49:13.274] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x0 minecraft:textures/atlas/map_decorations.png-atlas
-[186月2026 02:49:13.290] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/signs.png-atlas
-[186月2026 02:49:13.306] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x0 minecraft:textures/atlas/shulker_boxes.png-atlas
-[186月2026 02:49:13.742] [Render thread/INFO] [net.neoforged.neoforge.client.entity.animation.json.AnimationLoader/]: Loaded 0 entity animations
-[186月2026 02:49:29.395] [Render thread/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack tests
-[186月2026 02:49:35.647] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1470 recipes
-[186月2026 02:49:35.667] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1584 advancements
-[186月2026 02:49:35.672] [Render thread/INFO] [net.neoforged.neoforge.common.crafting.RecipePriorityManager/]: Loaded 0 recipe priority overrides
-[186月2026 02:49:37.760] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.21.11
-[186月2026 02:49:37.761] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[186月2026 02:49:38.072] [Server thread/INFO] [Curios API/]: Loaded 12 curio slots
-[186月2026 02:49:38.072] [Server thread/INFO] [Curios API/]: Loaded 1 curio entities
-[186月2026 02:49:38.459] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Selecting global world spawn...
-[186月2026 02:49:39.527] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Loading 0 persistent chunks...
-[186月2026 02:49:39.527] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: 准备生成区域中：16%
-[186月2026 02:49:39.538] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
-[186月2026 02:49:40.288] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Loading 48 chunks for player spawn...
-[186月2026 02:49:40.288] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: 准备生成区域中：16%
-[186月2026 02:49:40.292] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: 准备生成区域中：16%
-[186月2026 02:49:40.342] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: 准备生成区域中：16%
-[186月2026 02:49:40.493] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: 准备生成区域中：16%
-[186月2026 02:49:40.992] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: 准备生成区域中：30%
-[186月2026 02:49:41.442] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Time elapsed: 2983 ms
-[186月2026 02:49:42.091] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:74b4b299] logged in with entity id 1 at (7.5, 56.0, 7.5)
-[186月2026 02:49:42.231] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev加入了游戏
-[186月2026 02:49:42.482] [Render thread/WARN] [net.minecraft.client.multiplayer.ClientPacketListener/]: Ignoring chat session from Dev due to missing Services public key
-[186月2026 02:49:42.488] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 2 advancements
-[186月2026 02:49:42.505] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 16, from 10
-[186月2026 02:49:42.511] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
-[186月2026 02:49:42.600] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 2 reached during a single frame. New capacity will be 4.
-[186月2026 02:49:42.811] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 4 reached during a single frame. New capacity will be 8.
-[186月2026 02:49:43.101] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Chunk Sections UBO, capacity limit of 2 reached during a single frame. New capacity will be 4.
-[186月2026 02:49:43.138] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Chunk Sections UBO, capacity limit of 4 reached during a single frame. New capacity will be 8.
-[186月2026 02:49:43.202] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Chunk Sections UBO, capacity limit of 8 reached during a single frame. New capacity will be 16.
-[186月2026 02:49:43.471] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Chunk Sections UBO, capacity limit of 16 reached during a single frame. New capacity will be 32.
-[186月2026 02:49:45.140] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Chunk Sections UBO, capacity limit of 32 reached during a single frame. New capacity will be 64.
-[186月2026 02:49:46.984] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Chunk Sections UBO, capacity limit of 64 reached during a single frame. New capacity will be 128.
-[186月2026 02:49:49.423] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Chunk Sections UBO, capacity limit of 128 reached during a single frame. New capacity will be 256.
-[186月2026 02:49:54.931] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Chunk Sections UBO, capacity limit of 256 reached during a single frame. New capacity will be 512.
-[186月2026 02:50:17.719] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
-[186月2026 02:50:17.743] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: 连接中断
-[186月2026 02:50:17.744] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev退出了游戏
-[186月2026 02:50:17.822] [Server thread/INFO] [net.minecraft.server.network.ServerCommonPacketListenerImpl/]: Stopping singleplayer server as player logged out
-[186月2026 02:50:17.880] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[186月2026 02:50:17.880] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[186月2026 02:50:17.880] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[186月2026 02:50:24.368] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
-[186月2026 02:50:24.424] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
-[186月2026 02:50:24.443] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
-[186月2026 02:50:24.483] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (新的世界 (9)): All chunks are saved
-[186月2026 02:50:24.483] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[186月2026 02:50:24.483] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[186月2026 02:50:24.483] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[186月2026 03:12:58.669] [ForkJoinPool.commonPool-worker-8/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Downloading online cape texture: https://textures.minecraft.net/texture/e7dfea16dc83c97df01a12fabbd1216359c0cd0ea42f9999b6e97c584963e980
+[186月2026 03:12:58.682] [ForkJoinPool.commonPool-worker-9/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Downloading online cape texture: https://textures.minecraft.net/texture/1bf91499701404e21bd46b0191d63239a4ef76ebde88d27e4d430ac211df681e
+[186月2026 03:12:58.691] [ForkJoinPool.commonPool-worker-10/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Downloading online cape texture: https://textures.minecraft.net/texture/2262fb1d24912209490586ecae98aca8500df3eff91f2a07da37ee524e7e3cb6
+[186月2026 03:12:58.705] [ForkJoinPool.commonPool-worker-11/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Downloading online cape texture: https://textures.minecraft.net/texture/ca29f5dd9e94fb1748203b92e36b66fda80750c87ebc18d6eafdb0e28cc1d05f
+[186月2026 03:12:58.715] [ForkJoinPool.commonPool-worker-12/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Downloading online cape texture: https://textures.minecraft.net/texture/70efffaf86fe5bc089608d3cb297d3e276b9eb7a8f9f2fe6659c23a2d8b18edf
+[186月2026 03:12:58.736] [ForkJoinPool.commonPool-worker-13/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Downloading online cape texture: https://textures.minecraft.net/texture/bcfbe84c6542a4a5c213c1cacf8979b5e913dcb4ad783a8b80e3c4a7d5c8bdac
+[186月2026 03:12:58.749] [ForkJoinPool.commonPool-worker-14/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Downloading online cape texture: https://textures.minecraft.net/texture/23ec737f18bfe4b547c95935fc297dd767bb84ee55bfd855144d279ac9bfd9fe
+[186月2026 03:12:58.762] [ForkJoinPool.commonPool-worker-15/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Downloading online cape texture: https://textures.minecraft.net/texture/2e002d5e1758e79ba51d08d92a0f3a95119f2f435ae7704916507b6c565a7da8
+[186月2026 03:12:58.772] [ForkJoinPool.commonPool-worker-16/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Downloading online cape texture: https://textures.minecraft.net/texture/d8f8d13a1adf9636a16c31d47f3ecc9bb8d8533108aa5ad2a01b13b1a0c55eac
+[186月2026 03:12:58.842] [ForkJoinPool.commonPool-worker-17/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Downloading online cape texture: https://textures.minecraft.net/texture/5048ea61566353397247d2b7d946034de926b997d5e66c86483dfb1e031aee95
+[186月2026 03:12:58.907] [ForkJoinPool.commonPool-worker-18/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Downloading online cape texture: https://textures.minecraft.net/texture/2056f2eebd759cce93460907186ef44e9192954ae12b227d817eb4b55627a7fc
+[186月2026 03:12:58.930] [ForkJoinPool.commonPool-worker-19/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Downloading online cape texture: https://textures.minecraft.net/texture/3efadf6510961830f9fcc077f19b4daf286d502b5f5aafbd807c7bbffcaca245
+[186月2026 03:12:58.953] [ForkJoinPool.commonPool-worker-20/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Downloading online cape texture: https://textures.minecraft.net/texture/ca35c56efe71ed290385f4ab5346a1826b546a54d519e6a3ff01efa01acce81
+[186月2026 03:12:58.992] [ForkJoinPool.commonPool-worker-21/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Downloading online cape texture: https://textures.minecraft.net/texture/ae677f7d98ac70a533713518416df4452fe5700365c09cf45d0d156ea9396551
+[186月2026 03:12:59.003] [ForkJoinPool.commonPool-worker-22/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Downloading online cape texture: https://textures.minecraft.net/texture/17912790ff164b93196f08ba71d0e62129304776d0f347334f8a6eae509f8a56
+[186月2026 03:12:59.015] [ForkJoinPool.commonPool-worker-23/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Downloading online cape texture: https://textures.minecraft.net/texture/2340c0e03dd24a11b15a8b33c2a7e9e32abb2051b2481d0ba7defd635ca7a933
+[186月2026 03:12:59.035] [ForkJoinPool.commonPool-worker-24/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Downloading online cape texture: https://textures.minecraft.net/texture/f9a76537647989f9a0b6d001e320dac591c359e9e61a31f4ce11c88f207f0ad4
+[186月2026 03:12:59.057] [ForkJoinPool.commonPool-worker-25/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Downloading online cape texture: https://textures.minecraft.net/texture/afd553b39358a24edfe3b8a9a939fa5fa4faa4d9a9c3d6af8eafb377fa05c2bb
+[186月2026 03:12:59.073] [ForkJoinPool.commonPool-worker-26/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Downloading online cape texture: https://textures.minecraft.net/texture/cd9d82ab17fd92022dbd4a86cde4c382a7540e117fae7b9a2853658505a80625
+[186月2026 03:12:59.319] [ForkJoinPool.commonPool-worker-27/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Downloading online cape texture: https://textures.minecraft.net/texture/5c29410057e32abec02d870ecb52ec25fb45ea81e785a7854ae8429d7236ca26
+[186月2026 03:12:59.497] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Speaker (Realtek(R) Audio)
+[186月2026 03:12:59.499] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[186月2026 03:12:59.500] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[186月2026 03:12:59.554] [ForkJoinPool.commonPool-worker-28/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Downloading online cape texture: https://textures.minecraft.net/texture/308b32a9e303155a0b4262f9e5483ad4a22e3412e84fe8385a0bdd73dc41fa89
+[186月2026 03:12:59.604] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/decorated_pot.png-atlas
+[186月2026 03:12:59.616] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x1024x0 minecraft:textures/atlas/armor_trims.png-atlas
+[186月2026 03:12:59.706] [ForkJoinPool.commonPool-worker-29/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Downloading online cape texture: https://textures.minecraft.net/texture/1de21419009db483900da6298a1e6cbf9f1bc1523a0dcdc16263fab150693edd
+[186月2026 03:12:59.888] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[186月2026 03:12:59.912] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/shield_patterns.png-atlas
+[186月2026 03:12:59.920] [ForkJoinPool.commonPool-worker-15/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Downloading online cape texture: https://textures.minecraft.net/texture/dbc21e222528e30dc88445314f7be6ff12d3aeebc3c192054fba7e3b3f8c77b1
+[186月2026 03:12:59.920] [ForkJoinPool.commonPool-worker-17/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Downloading online cape texture: https://textures.minecraft.net/texture/5ec930cdd2629c8771655c60eebeb867b4b6559b0e6d3bc71c40c96347fa03f0
+[186月2026 03:12:59.921] [ForkJoinPool.commonPool-worker-19/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Downloading online cape texture: https://textures.minecraft.net/texture/a3f6e4f14801f3ea55e3d95b9b4ef3b5e8802d947f669de93d6ec4b9354a436b
+[186月2026 03:12:59.920] [ForkJoinPool.commonPool-worker-18/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Downloading online cape texture: https://textures.minecraft.net/texture/fdcf48f01ec480d1d7cbec27f7ddce48c9da2be6724641109444dae58d4cd013
+[186月2026 03:12:59.921] [ForkJoinPool.commonPool-worker-12/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Downloading online cape texture: https://textures.minecraft.net/texture/479eacefa3cdd7aca94207f36c0dd449653ddf259daf40544a5866baf05eee22
+[186月2026 03:12:59.921] [ForkJoinPool.commonPool-worker-1/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Downloading online cape texture: https://textures.minecraft.net/texture/fe8a02dfe9e390e44ff33d69feef9d3943f76d3901015bbd50f0b67722d288bd
+[186月2026 03:12:59.921] [ForkJoinPool.commonPool-worker-20/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Downloading online cape texture: https://textures.minecraft.net/texture/2c579968c64c1719740fd8c2a451461879b238002574fce48f7d1a7c36a1c7d4
+[186月2026 03:12:59.921] [ForkJoinPool.commonPool-worker-11/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Downloading online cape texture: https://textures.minecraft.net/texture/5e6f3193e74cd16cdd6637d9bae5484e3a37ff2a14c2d157c659a07810b1bdca
+[186月2026 03:12:59.921] [ForkJoinPool.commonPool-worker-2/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Downloading online cape texture: https://textures.minecraft.net/texture/7706b5f5fc90329691e59277dcc66ba20572219fa8e5da472afd5235fad12cc8
+[186月2026 03:12:59.943] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x2048x4 minecraft:textures/atlas/blocks.png-atlas
+[186月2026 03:13:01.869] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x0 minecraft:textures/atlas/chest.png-atlas
+[186月2026 03:13:01.885] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 minecraft:textures/atlas/celestials.png-atlas
+[186月2026 03:13:01.892] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/banner_patterns.png-atlas
+[186月2026 03:13:01.949] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x0 minecraft:textures/atlas/beds.png-atlas
+[186月2026 03:13:01.961] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/items.png-atlas
+[186月2026 03:13:02.365] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x0 minecraft:textures/atlas/gui.png-atlas
+[186月2026 03:13:02.600] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[186月2026 03:13:02.618] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/signs.png-atlas
+[186月2026 03:13:02.634] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x0 minecraft:textures/atlas/shulker_boxes.png-atlas
+[186月2026 03:13:02.652] [Render thread/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Registered online cape texture: craftablecapes:textures/capes/online_2e002d5e.png
+[186月2026 03:13:02.655] [Render thread/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Registered online cape texture: craftablecapes:textures/capes/online_5048ea61.png
+[186月2026 03:13:02.656] [Render thread/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Registered online cape texture: craftablecapes:textures/capes/online_2056f2ee.png
+[186月2026 03:13:02.657] [Render thread/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Registered online cape texture: craftablecapes:textures/capes/online_3efadf65.png
+[186月2026 03:13:02.658] [Render thread/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Registered online cape texture: craftablecapes:textures/capes/online_9e507afc.png
+[186月2026 03:13:02.659] [Render thread/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Registered online cape texture: craftablecapes:textures/capes/online_70efffaf.png
+[186月2026 03:13:02.661] [Render thread/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Registered online cape texture: craftablecapes:textures/capes/online_ca35c56e.png
+[186月2026 03:13:02.662] [Render thread/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Registered online cape texture: craftablecapes:textures/capes/online_5786fe99.png
+[186月2026 03:13:02.663] [Render thread/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Registered online cape texture: craftablecapes:textures/capes/online_ca29f5dd.png
+[186月2026 03:13:02.664] [Render thread/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Registered online cape texture: craftablecapes:textures/capes/online_1bf91499.png
+[186月2026 03:13:02.665] [Render thread/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Registered online cape texture: craftablecapes:textures/capes/online_953cac8b.png
+[186月2026 03:13:02.665] [Render thread/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Registered online cape texture: craftablecapes:textures/capes/online_bcfbe84c.png
+[186月2026 03:13:02.667] [Render thread/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Registered online cape texture: craftablecapes:textures/capes/online_2262fb1d.png
+[186月2026 03:13:02.668] [Render thread/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Registered online cape texture: craftablecapes:textures/capes/online_8f120319.png
+[186月2026 03:13:02.669] [Render thread/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Registered online cape texture: craftablecapes:textures/capes/online_153b1a0d.png
+[186月2026 03:13:02.670] [Render thread/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Registered online cape texture: craftablecapes:textures/capes/online_e7dfea16.png
+[186月2026 03:13:02.670] [Render thread/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Registered online cape texture: craftablecapes:textures/capes/online_d8f8d13a.png
+[186月2026 03:13:02.671] [Render thread/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Registered online cape texture: craftablecapes:textures/capes/online_a2e8d97e.png
+[186月2026 03:13:02.672] [Render thread/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Registered online cape texture: craftablecapes:textures/capes/online_b0cc0884.png
+[186月2026 03:13:02.673] [Render thread/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Registered online cape texture: craftablecapes:textures/capes/online_23ec737f.png
+[186月2026 03:13:02.674] [Render thread/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Registered online cape texture: craftablecapes:textures/capes/online_17912790.png
+[186月2026 03:13:02.675] [Render thread/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Registered online cape texture: craftablecapes:textures/capes/online_cd9d82ab.png
+[186月2026 03:13:02.677] [Render thread/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Registered online cape texture: craftablecapes:textures/capes/online_ae677f7d.png
+[186月2026 03:13:02.678] [Render thread/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Registered online cape texture: craftablecapes:textures/capes/online_f9a76537.png
+[186月2026 03:13:02.679] [Render thread/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Registered online cape texture: craftablecapes:textures/capes/online_afd553b3.png
+[186月2026 03:13:02.680] [Render thread/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Registered online cape texture: craftablecapes:textures/capes/online_2340c0e0.png
+[186月2026 03:13:02.681] [Render thread/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Registered online cape texture: craftablecapes:textures/capes/online_5c294100.png
+[186月2026 03:13:02.682] [Render thread/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Registered online cape texture: craftablecapes:textures/capes/online_308b32a9.png
+[186月2026 03:13:02.683] [Render thread/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Registered online cape texture: craftablecapes:textures/capes/online_1de21419.png
+[186月2026 03:13:02.684] [Render thread/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Registered online cape texture: craftablecapes:textures/capes/online_dbc21e22.png
+[186月2026 03:13:02.685] [Render thread/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Registered online cape texture: craftablecapes:textures/capes/online_5ec930cd.png
+[186月2026 03:13:02.685] [Render thread/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Registered online cape texture: craftablecapes:textures/capes/online_479eacef.png
+[186月2026 03:13:02.686] [Render thread/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Registered online cape texture: craftablecapes:textures/capes/online_a3f6e4f1.png
+[186月2026 03:13:02.687] [Render thread/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Registered online cape texture: craftablecapes:textures/capes/online_5e6f3193.png
+[186月2026 03:13:02.688] [Render thread/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Registered online cape texture: craftablecapes:textures/capes/online_fdcf48f0.png
+[186月2026 03:13:02.689] [Render thread/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Registered online cape texture: craftablecapes:textures/capes/online_7706b5f5.png
+[186月2026 03:13:02.691] [Render thread/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Registered online cape texture: craftablecapes:textures/capes/online_fe8a02df.png
+[186月2026 03:13:02.691] [Render thread/INFO] [com.craftablecapes.client.OnlineCapeLoader/]: Registered online cape texture: craftablecapes:textures/capes/online_2c579968.png
+[186月2026 03:13:02.975] [Render thread/INFO] [net.neoforged.neoforge.client.entity.animation.json.AnimationLoader/]: Loaded 0 entity animations
+[186月2026 03:13:07.443] [Render thread/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack tests
+[186月2026 03:13:13.810] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1470 recipes
+[186月2026 03:13:13.830] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1584 advancements
+[186月2026 03:13:13.835] [Render thread/INFO] [net.neoforged.neoforge.common.crafting.RecipePriorityManager/]: Loaded 0 recipe priority overrides
+[186月2026 03:13:16.778] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.21.11
+[186月2026 03:13:16.779] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[186月2026 03:13:17.037] [Server thread/INFO] [Curios API/]: Loaded 12 curio slots
+[186月2026 03:13:17.037] [Server thread/INFO] [Curios API/]: Loaded 1 curio entities
+[186月2026 03:13:17.504] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Selecting global world spawn...
+[186月2026 03:13:18.618] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Loading 0 persistent chunks...
+[186月2026 03:13:18.619] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: 准备生成区域中：16%
+[186月2026 03:13:18.630] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[186月2026 03:13:19.772] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Loading 47 chunks for player spawn...
+[186月2026 03:13:19.774] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: 准备生成区域中：16%
+[186月2026 03:13:19.786] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: 准备生成区域中：16%
+[186月2026 03:13:19.835] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: 准备生成区域中：16%
+[186月2026 03:13:19.885] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: 准备生成区域中：16%
+[186月2026 03:13:20.034] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: 准备生成区域中：25%
+[186月2026 03:13:20.534] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: 准备生成区域中：57%
+[186月2026 03:13:20.784] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Time elapsed: 3281 ms
+[186月2026 03:13:21.667] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:0ec30e16] logged in with entity id 1 at (1.5, 56.0, -2.5)
+[186月2026 03:13:21.856] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev加入了游戏
+[186月2026 03:13:22.138] [Render thread/WARN] [net.minecraft.client.multiplayer.ClientPacketListener/]: Ignoring chat session from Dev due to missing Services public key
+[186月2026 03:13:22.143] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 2 advancements
+[186月2026 03:13:22.172] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 16, from 10
+[186月2026 03:13:22.178] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[186月2026 03:13:22.249] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 2 reached during a single frame. New capacity will be 4.
+[186月2026 03:13:22.508] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 4 reached during a single frame. New capacity will be 8.
+[186月2026 03:13:22.848] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Chunk Sections UBO, capacity limit of 2 reached during a single frame. New capacity will be 8.
+[186月2026 03:13:22.928] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Chunk Sections UBO, capacity limit of 8 reached during a single frame. New capacity will be 16.
+[186月2026 03:13:23.581] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Chunk Sections UBO, capacity limit of 16 reached during a single frame. New capacity will be 32.
+[186月2026 03:13:24.291] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Chunk Sections UBO, capacity limit of 32 reached during a single frame. New capacity will be 64.
+[186月2026 03:13:26.360] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Chunk Sections UBO, capacity limit of 64 reached during a single frame. New capacity will be 128.
+[186月2026 03:13:29.944] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Chunk Sections UBO, capacity limit of 128 reached during a single frame. New capacity will be 256.
+[186月2026 03:13:33.445] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 8 reached during a single frame. New capacity will be 16.
+[186月2026 03:13:36.645] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Chunk Sections UBO, capacity limit of 256 reached during a single frame. New capacity will be 512.
+[186月2026 03:13:39.838] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev达成了目标[天空即为极限]
+[186月2026 03:13:39.877] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev达成了目标[天空即为极限]
+[186月2026 03:13:39.889] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 7 advancements
+[186月2026 03:13:43.637] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[186月2026 03:13:43.685] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: 连接中断
+[186月2026 03:13:43.686] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev退出了游戏
+[186月2026 03:13:43.772] [Server thread/INFO] [net.minecraft.server.network.ServerCommonPacketListenerImpl/]: Stopping singleplayer server as player logged out
+[186月2026 03:13:43.809] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[186月2026 03:13:43.810] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[186月2026 03:13:43.810] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[186月2026 03:13:51.167] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[186月2026 03:13:51.443] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[186月2026 03:13:51.469] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[186月2026 03:13:51.673] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (新的世界 (11)): All chunks are saved
+[186月2026 03:13:51.673] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[186月2026 03:13:51.673] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[186月2026 03:13:51.674] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
