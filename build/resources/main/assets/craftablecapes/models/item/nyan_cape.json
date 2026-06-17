@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "craftablecapes:capes/nyan"
+    "layer0": "craftablecapes:item/nyan"
   }
 }

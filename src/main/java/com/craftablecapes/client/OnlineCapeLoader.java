@@ -60,14 +60,22 @@ public class OnlineCapeLoader {
                 }
 
                 // Register with TextureManager on render thread
-                // Must match the path that ClientAsset.ResourceTexture builds:
-                // "textures/" + cape.getTextureName() + ".png"
+                // Two paths: "textures/capes/" for player rendering (ClientAsset.ResourceTexture),
+                //            "textures/item/" for item icon atlas
                 Minecraft.getInstance().execute(() -> {
-                    Identifier id = Identifier.fromNamespaceAndPath("craftablecapes",
+                    NativeImage capeImage = nativeImage;
+                    Identifier capeId = Identifier.fromNamespaceAndPath("craftablecapes",
                             "textures/capes/" + cape.getTextureName() + ".png");
-                    Minecraft.getInstance().getTextureManager().register(id,
-                            new DynamicTexture(() -> cape.getTextureName(), nativeImage));
-                    LOGGER.info("Registered online cape texture: {}", id);
+                    Identifier itemId = Identifier.fromNamespaceAndPath("craftablecapes",
+                            "textures/item/" + cape.getTextureName() + ".png");
+                    Minecraft.getInstance().getTextureManager().register(capeId,
+                            new DynamicTexture(() -> cape.getTextureName(), capeImage));
+                    // Also register under item/ path so sprite atlas picks it up
+                    NativeImage itemCopy = new NativeImage(capeImage.getWidth(), capeImage.getHeight(), false);
+                    itemCopy.copyFrom(capeImage);
+                    Minecraft.getInstance().getTextureManager().register(itemId,
+                            new DynamicTexture(() -> "item_" + cape.getTextureName(), itemCopy));
+                    LOGGER.info("Registered online cape texture: {} and {}", capeId, itemId);
                 });
             } catch (Exception e) {
                 LOGGER.error("Error downloading cape texture", e);

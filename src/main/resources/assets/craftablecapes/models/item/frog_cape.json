@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "craftablecapes:capes/frog"
+    "layer0": "craftablecapes:item/frog"
   }
 }

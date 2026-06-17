@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "craftablecapes:capes/awesom"
+    "layer0": "craftablecapes:item/awesom"
   }
 }

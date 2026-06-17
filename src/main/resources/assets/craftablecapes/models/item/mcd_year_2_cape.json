@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "craftablecapes:capes/mcd_year_2"
+    "layer0": "craftablecapes:item/mcd_year_2"
   }
 }
