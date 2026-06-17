@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "craftablecapes:item/10_years"
+    "layer0": "craftablecapes:item/10_years_cape"
   }
 }

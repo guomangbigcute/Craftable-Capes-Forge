@@ -1,7 +1,5 @@
 package com.craftablecapes.items;
 
-import net.minecraft.resources.Identifier;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -11,7 +9,8 @@ public class OnlineCapeItem extends CapeItem {
     private final String hash;
 
     public OnlineCapeItem(String hash, Properties properties) {
-        super("online_" + hash.substring(0, Math.min(8, hash.length())), properties);
+        // Use full hash as texture name for consistent identification
+        super(hash, properties);
         this.hash = hash;
         ONLINE_CAPES.add(this);
     }

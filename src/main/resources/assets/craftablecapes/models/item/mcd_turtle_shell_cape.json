@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "craftablecapes:item/mcd_turtle_shell"
+    "layer0": "craftablecapes:item/mcd_turtle_shell_cape"
   }
 }

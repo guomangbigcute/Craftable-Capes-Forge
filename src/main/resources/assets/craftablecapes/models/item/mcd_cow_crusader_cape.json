@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "craftablecapes:item/mcd_cow_crusader"
+    "layer0": "craftablecapes:item/mcd_cow_crusader_cape"
   }
 }

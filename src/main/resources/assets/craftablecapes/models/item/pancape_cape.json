@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "craftablecapes:item/pancape"
+    "layer0": "craftablecapes:item/pancape_cape"
   }
 }

@@ -4,9 +4,14 @@ import com.mojang.authlib.minecraft.MinecraftProfileTexture;
 import net.minecraft.resources.Identifier;
 
 import java.nio.file.Path;
-import java.util.concurrent.CompletableFuture;
 
+/**
+ * Provides Identifier mapping for cape textures.
+ * The cape textures are downloaded and cached by OnlineCapeLoader,
+ * this class helps resolve MinecraftProfileTexture hashes to our local identifiers.
+ */
 public class FileCache {
+    /** Singleton cape cache instance, initialized during client setup */
     public static FileCache capeCache;
 
     private final Path directory;
@@ -15,9 +20,16 @@ public class FileCache {
         this.directory = directory;
     }
 
-    public CompletableFuture<Identifier> get(MinecraftProfileTexture texture) {
+    public Path getDirectory() {
+        return directory;
+    }
+
+    /**
+     * Resolve a Minecraft profile texture to our local cape texture identifier.
+     * Uses the full hash as the texture name.
+     */
+    public Identifier get(MinecraftProfileTexture texture) {
         String hash = texture.getHash();
-        Identifier location = Identifier.fromNamespaceAndPath("craftablecapes", "capes/" + hash);
-        return CompletableFuture.completedFuture(location);
+        return Identifier.fromNamespaceAndPath("craftablecapes", "textures/capes/" + hash + ".png");
     }
 }

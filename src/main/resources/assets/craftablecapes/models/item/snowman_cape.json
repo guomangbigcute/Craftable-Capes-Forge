@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "craftablecapes:item/online_23ec737f"
+    "layer0": "craftablecapes:item/snowman_cape"
   }
 }

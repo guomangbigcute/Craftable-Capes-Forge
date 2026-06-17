@@ -35,11 +35,15 @@ public class CuriosIntegration {
         }
     }
 
+    /**
+     * Get the cape texture identifier for the equipped cape.
+     * - Local capes (CapeItem): returns "craftablecapes:capes/twitch" → textures/capes/twitch.png
+     * - Online capes (OnlineCapeItem): returns "craftablecapes:capes/HASH" → DynamicTexture at textures/capes/HASH.png
+     */
     public static Identifier getEquippedCapeTexture(Player player) {
         Optional<CapeItem> cape = getEquippedCape(player);
         return cape.map(c -> {
             String name = c.getTextureName();
-            // ClientAsset.ResourceTexture auto-adds "textures/" prefix and ".png" suffix
             return Identifier.fromNamespaceAndPath("craftablecapes", "capes/" + name);
         }).orElse(null);
     }
@@ -48,3 +52,4 @@ public class CuriosIntegration {
         return getEquippedCape(player).isPresent();
     }
 }
+

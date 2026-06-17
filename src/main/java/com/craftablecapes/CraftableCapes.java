@@ -12,6 +12,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.common.Mod;
+import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -32,7 +33,12 @@ public class CraftableCapes {
             CREATIVE_MODE_TABS.register("capes", () ->
             CreativeModeTab.builder()
                     .title(Component.translatable("itemGroup.craftablecapes"))
-                    .icon(() -> new ItemStack(net.minecraft.world.item.Items.ELYTRA))
+                    .icon(() -> {
+                        var capes = CapeItem.ALL_CAPES;
+                        return capes.isEmpty()
+                            ? new ItemStack(net.minecraft.world.item.Items.ELYTRA)
+                            : new ItemStack(capes.get(new Random().nextInt(capes.size())));
+                    })
                     .build()
     );
 
@@ -44,6 +50,9 @@ public class CraftableCapes {
 
         modEventBus.addListener(ClientSetup::onClientSetup);
         modEventBus.addListener(this::onBuildCreativeTabContents);
+
+        // Register tick handler on NeoForge event bus for client-only events
+        NeoForge.EVENT_BUS.addListener(ClientSetup::onClientTick);
 
         LOGGER.info("Craftable Capes initialized for NeoForge!");
     }
@@ -61,6 +70,7 @@ public class CraftableCapes {
 
     public static CapeItem registerCape(String name) {
         CapeItem cape = new CapeItem(name, new Item.Properties()
+                .stacksTo(1)
                 .setId(net.minecraft.resources.ResourceKey.create(net.minecraft.core.registries.Registries.ITEM,
                     net.minecraft.resources.Identifier.fromNamespaceAndPath(MOD_ID, name + "_cape"))));
         ALL_CAPES_LIST.add(cape);
@@ -69,6 +79,7 @@ public class CraftableCapes {
 
     public static OnlineCapeItem registerOnlineCape(String hash, String name) {
         OnlineCapeItem cape = new OnlineCapeItem(hash, new Item.Properties()
+                .stacksTo(1)
                 .setId(net.minecraft.resources.ResourceKey.create(net.minecraft.core.registries.Registries.ITEM,
                     net.minecraft.resources.Identifier.fromNamespaceAndPath(MOD_ID, name + "_cape"))));
         ALL_CAPES_LIST.add(cape);

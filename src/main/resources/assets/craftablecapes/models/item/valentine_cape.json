@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "craftablecapes:item/valentine"
+    "layer0": "craftablecapes:item/valentine_cape"
   }
 }

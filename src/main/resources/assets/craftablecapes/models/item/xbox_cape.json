@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "craftablecapes:item/xbox"
+    "layer0": "craftablecapes:item/xbox_cape"
   }
 }

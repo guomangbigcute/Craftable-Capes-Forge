@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "craftablecapes:item/online_ca35c56e"
+    "layer0": "craftablecapes:item/cobalt_cape"
   }
 }
