@@ -22,12 +22,9 @@ import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.player.PlayerModelPart;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
-import net.neoforged.api.distmarker.Dist;
-import net.neoforged.api.distmarker.OnlyIn;
 import top.theillusivec4.curios.api.SlotContext;
 import top.theillusivec4.curios.api.client.ICurioRenderer;
 
-@OnlyIn(Dist.CLIENT)
 public class CapeCurioRenderer implements ICurioRenderer {
 
     @Override
@@ -35,8 +32,8 @@ public class CapeCurioRenderer implements ICurioRenderer {
             ItemStack stack, SlotContext slotContext, PoseStack poseStack,
             RenderLayerParent<T, M> renderLayerParent, MultiBufferSource buffer,
             int light, float limbSwing, float limbSwingAmount,
-            float partialTicks, float ageInTicks, float netHeadYaw, float headPitch
-    ) {
+            float partialTicks, float ageInTicks, float netHeadYaw, float headPitch) {
+
         if (!(stack.getItem() instanceof CapeItem capeItem)) return;
         if (!(slotContext.entity() instanceof AbstractClientPlayer player)) return;
         if (player.isInvisible()) return;
@@ -48,20 +45,22 @@ public class CapeCurioRenderer implements ICurioRenderer {
         boolean wearingElytra = player.getItemBySlot(EquipmentSlot.CHEST).getItem() == Items.ELYTRA;
 
         if (wearingElytra) {
-            // Only render elytra model with cape texture (hide the cape cloak)
+            // Render elytra with cape texture (same flow as vanilla ElytraLayer)
             ElytraModel<LivingEntity> elytraModel = new ElytraModel<>(
                 Minecraft.getInstance().getEntityModels().bakeLayer(ModelLayers.ELYTRA));
             poseStack.pushPose();
             poseStack.translate(0.0F, 0.0F, 0.125F);
-            // Copy parent model properties for correct positioning
-            ((EntityModel)renderLayerParent.getModel()).copyPropertiesTo(((EntityModel)elytraModel));
+            // Copy parent model state so elytra matches player pose
+            @SuppressWarnings({"rawtypes", "unchecked"})
+            EntityModel rawParent = (EntityModel) renderLayerParent.getModel();
+            rawParent.copyPropertiesTo(elytraModel);
             elytraModel.setupAnim(player, limbSwing, limbSwingAmount, ageInTicks, netHeadYaw, headPitch);
             VertexConsumer vc = ItemRenderer.getArmorFoilBuffer(
                 buffer, RenderType.armorCutoutNoCull(capeTexture), false);
             elytraModel.renderToBuffer(poseStack, vc, light, OverlayTexture.NO_OVERLAY);
             poseStack.popPose();
         } else {
-            // Render cape cloak normally
+            // Render cape cloak
             PlayerModel<?> playerModel = renderLayerParent.getModel() instanceof PlayerModel<?> pm ? pm : null;
             if (playerModel == null) return;
 
