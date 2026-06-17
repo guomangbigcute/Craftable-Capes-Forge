@@ -8,7 +8,6 @@ import com.google.common.hash.Hashing;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.texture.HttpTexture;
 import net.minecraft.client.resources.DefaultPlayerSkin;
-import net.minecraft.server.packs.resources.ResourceManager;
 import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -20,14 +19,11 @@ public class ClientSetup {
     private static final Logger LOGGER = LoggerFactory.getLogger(ClientSetup.class);
 
     public static void onClientSetup(FMLClientSetupEvent event) {
-        LOGGER.info("Setting up Craftable Capes client...");
-
         Minecraft mc = Minecraft.getInstance();
-        File gameDir = mc.gameDirectory;
-        File cacheDir = new File(gameDir, "cache/craftablecapes");
+        File cacheDir = new File(mc.gameDirectory, "cache/craftablecapes");
         if (!cacheDir.exists()) cacheDir.mkdirs();
 
-        // Preload all online capes using Minecraft's HttpTexture system
+        // Preload all online capes via HttpTexture (async download)
         File onlineCacheDir = new File(cacheDir, "capes");
         if (!onlineCacheDir.exists()) onlineCacheDir.mkdirs();
 
@@ -38,19 +34,10 @@ public class ClientSetup {
                 String subDir = hashStr.length() > 2 ? hashStr.substring(0, 2) : "xx";
                 File cacheFile = new File(onlineCacheDir, subDir + "/" + hashStr);
                 cacheFile.getParentFile().mkdirs();
-
                 String url = "https://textures.minecraft.net/texture/" + hash;
-
                 HttpTexture texture = new HttpTexture(
-                    cacheFile,
-                    url,
-                    DefaultPlayerSkin.getDefaultTexture(),
-                    false,
-                    null
-                );
-
+                    cacheFile, url, DefaultPlayerSkin.getDefaultTexture(), false, null);
                 mc.getTextureManager().register(onlineCape.getTextureLocation(), texture);
-                LOGGER.debug("Registered online cape texture: {}", onlineCape.getTextureLocation());
             } catch (Exception e) {
                 LOGGER.error("Failed to register online cape texture", e);
             }
@@ -60,6 +47,6 @@ public class ClientSetup {
         for (CapeItem cape : CapeItem.ALL_CAPES) {
             CuriosRendererRegistry.register(cape, () -> new CapeCurioRenderer());
         }
-        LOGGER.info("Registered Curios renderers for {} cape items", CapeItem.ALL_CAPES.size());
+        LOGGER.info("Registered {} cape renderers", CapeItem.ALL_CAPES.size());
     }
 }

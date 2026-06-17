@@ -7,9 +7,7 @@
   "mixins": [
   ],
   "client": [
-    "AbstractClientPlayerMixin",
-    "CapeLayerMixin",
-    "ElytraLayerMixin"
+    "CapeLayerMixin"
   ],
   "injectors": {
     "defaultRequire": 1

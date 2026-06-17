@@ -40,7 +40,6 @@ public class CapeCurioRenderer implements ICurioRenderer {
             float headPitch
     ) {
         if (!(stack.getItem() instanceof CapeItem capeItem)) return;
-        if (!(renderLayerParent.getModel() instanceof PlayerModel<?> playerModel)) return;
         if (!(slotContext.entity() instanceof AbstractClientPlayer player)) return;
 
         if (player.isInvisible()) return;
@@ -49,7 +48,13 @@ public class CapeCurioRenderer implements ICurioRenderer {
         ResourceLocation capeTexture = capeItem.getTextureLocation();
         if (capeTexture == null) return;
 
-        // Vanilla-style cape rendering
+        // Try to get PlayerModel from the renderLayerParent
+        PlayerModel<?> playerModel = null;
+        if (renderLayerParent.getModel() instanceof PlayerModel<?> pm) {
+            playerModel = pm;
+        }
+
+        // ---- Render cape ----
         poseStack.pushPose();
         poseStack.translate(0.0F, 0.0F, 0.125F);
 
@@ -84,9 +89,11 @@ public class CapeCurioRenderer implements ICurioRenderer {
         poseStack.mulPose(Axis.ZP.rotationDegrees(f3 / 2.0F));
         poseStack.mulPose(Axis.YP.rotationDegrees(180.0F - f3 / 2.0F));
 
-        // Use entityCutout for the same rendering as the vanilla CapeLayer
-        VertexConsumer vertexconsumer = multiBufferSource.getBuffer(RenderType.entityCutout(capeTexture));
-        playerModel.renderCloak(poseStack, vertexconsumer, light, OverlayTexture.NO_OVERLAY);
+        // Render cloak
+        VertexConsumer cloakConsumer = multiBufferSource.getBuffer(RenderType.entityCutout(capeTexture));
+        if (playerModel != null) {
+            playerModel.renderCloak(poseStack, cloakConsumer, light, OverlayTexture.NO_OVERLAY);
+        }
         poseStack.popPose();
     }
 }
