@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WWW",
+    "WIW",
+    "WWW"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:green_wool"
+    },
+    "I": {
+      "item": "minecraft:anvil"
+    }
+  },
+  "result": {
+    "item": "craftablecapes:mcd_hammer_cape",
+    "count": 1
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WWW",
+    "PWS",
+    "WWW"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:red_wool"
+    },
+    "P": {
+      "item": "minecraft:golden_pickaxe"
+    },
+    "S": {
+      "item": "minecraft:golden_sword"
+    }
+  },
+  "result": {
+    "item": "craftablecapes:minecon_13_cape",
+    "count": 1
+  }
+}

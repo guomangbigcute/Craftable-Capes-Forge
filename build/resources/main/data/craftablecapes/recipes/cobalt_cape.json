@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WWW",
+    "WIW",
+    "WWW"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:light_blue_wool"
+    },
+    "I": {
+      "item": "minecraft:ender_pearl"
+    }
+  },
+  "result": {
+    "item": "craftablecapes:cobalt_cape",
+    "count": 1
+  }
+}
