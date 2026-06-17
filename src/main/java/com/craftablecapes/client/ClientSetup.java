@@ -1,6 +1,7 @@
 package com.craftablecapes.client;
 
 import com.craftablecapes.items.CapeItem;
+import com.craftablecapes.items.OnlineCapeItem;
 import com.craftablecapes.client.renderer.CapeCurioRenderer;
 import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
 import org.slf4j.Logger;
@@ -14,6 +15,12 @@ public class ClientSetup {
         for (CapeItem cape : CapeItem.ALL_CAPES) {
             ICurioRenderer.register(cape, CapeCurioRenderer::new);
         }
-        LOGGER.info("Registered {} cape renderers via ICurioRenderer.register()", CapeItem.ALL_CAPES.size());
+        LOGGER.info("Registered {} cape renderers", CapeItem.ALL_CAPES.size());
+
+        // Download online cape textures asynchronously
+        for (OnlineCapeItem onlineCape : OnlineCapeItem.ONLINE_CAPES) {
+            OnlineCapeLoader.downloadAndRegister(onlineCape);
+        }
+        LOGGER.info("Started downloading {} online cape textures", OnlineCapeItem.ONLINE_CAPES.size());
     }
 }

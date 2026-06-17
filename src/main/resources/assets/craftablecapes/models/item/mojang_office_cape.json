@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "craftablecapes:capes/mojang_office"
+    "layer0": "craftablecapes:capes/online_5c294100"
   }
 }
