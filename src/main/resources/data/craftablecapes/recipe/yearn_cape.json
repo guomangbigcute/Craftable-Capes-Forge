@@ -7,12 +7,8 @@
     "WWW"
   ],
   "key": {
-    "W": {
-      "item": "minecraft:light_gray_wool"
-    },
-    "I": {
-      "item": "minecraft:oak_planks"
-    }
+    "W": "minecraft:light_gray_wool",
+    "I": "minecraft:oak_planks"
   },
   "result": {
     "id": "craftablecapes:yearn_cape",

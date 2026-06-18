@@ -7,15 +7,9 @@
     "WWW"
   ],
   "key": {
-    "R": {
-      "item": "minecraft:red_wool"
-    },
-    "W": {
-      "item": "minecraft:white_wool"
-    },
-    "I": {
-      "item": "minecraft:iron_ingot"
-    }
+    "R": "minecraft:red_wool",
+    "W": "minecraft:white_wool",
+    "I": "minecraft:iron_ingot"
   },
   "result": {
     "id": "craftablecapes:4j_studio_cape",

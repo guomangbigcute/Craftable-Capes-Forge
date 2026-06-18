@@ -7,12 +7,8 @@
     "WWW"
   ],
   "key": {
-    "W": {
-      "item": "minecraft:green_wool"
-    },
-    "I": {
-      "item": "minecraft:rotten_flesh"
-    }
+    "W": "minecraft:green_wool",
+    "I": "minecraft:rotten_flesh"
   },
   "result": {
     "id": "craftablecapes:zombie_horse_cape",

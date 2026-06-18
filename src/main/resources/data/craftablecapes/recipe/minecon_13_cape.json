@@ -7,15 +7,9 @@
     "WWW"
   ],
   "key": {
-    "W": {
-      "item": "minecraft:red_wool"
-    },
-    "P": {
-      "item": "minecraft:golden_pickaxe"
-    },
-    "S": {
-      "item": "minecraft:golden_sword"
-    }
+    "W": "minecraft:red_wool",
+    "P": "minecraft:golden_pickaxe",
+    "S": "minecraft:golden_sword"
   },
   "result": {
     "id": "craftablecapes:minecon_13_cape",

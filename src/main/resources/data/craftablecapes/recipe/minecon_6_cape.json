@@ -7,12 +7,8 @@
     "WWW"
   ],
   "key": {
-    "W": {
-      "item": "minecraft:blue_wool"
-    },
-    "I": {
-      "item": "minecraft:totem_of_undying"
-    }
+    "W": "minecraft:blue_wool",
+    "I": "minecraft:totem_of_undying"
   },
   "result": {
     "id": "craftablecapes:minecon_6_cape",

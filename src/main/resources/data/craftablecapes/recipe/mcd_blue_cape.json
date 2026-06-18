@@ -7,12 +7,8 @@
     "WWW"
   ],
   "key": {
-    "W": {
-      "item": "minecraft:cyan_wool"
-    },
-    "I": {
-      "item": "minecraft:shears"
-    }
+    "W": "minecraft:cyan_wool",
+    "I": "minecraft:shears"
   },
   "result": {
     "id": "craftablecapes:mcd_blue_cape",

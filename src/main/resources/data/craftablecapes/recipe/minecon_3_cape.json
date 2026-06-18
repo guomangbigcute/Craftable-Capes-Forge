@@ -7,12 +7,8 @@
     "WWW"
   ],
   "key": {
-    "W": {
-      "item": "minecraft:green_wool"
-    },
-    "I": {
-      "item": "minecraft:phantom_membrane"
-    }
+    "W": "minecraft:green_wool",
+    "I": "minecraft:phantom_membrane"
   },
   "result": {
     "id": "craftablecapes:minecon_3_cape",

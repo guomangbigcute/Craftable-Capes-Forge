@@ -7,18 +7,10 @@
     "OWO"
   ],
   "key": {
-    "O": {
-      "item": "minecraft:orange_wool"
-    },
-    "B": {
-      "item": "minecraft:brown_wool"
-    },
-    "W": {
-      "item": "minecraft:white_wool"
-    },
-    "I": {
-      "item": "minecraft:crafting_table"
-    }
+    "O": "minecraft:orange_wool",
+    "B": "minecraft:brown_wool",
+    "W": "minecraft:white_wool",
+    "I": "minecraft:crafting_table"
   },
   "result": {
     "id": "craftablecapes:builder_cape",

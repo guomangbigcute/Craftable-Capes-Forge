@@ -7,12 +7,8 @@
     "WWW"
   ],
   "key": {
-    "W": {
-      "item": "minecraft:green_wool"
-    },
-    "I": {
-      "item": "minecraft:piston"
-    }
+    "W": "minecraft:green_wool",
+    "I": "minecraft:piston"
   },
   "result": {
     "id": "craftablecapes:minecon_2013_cape",

@@ -7,12 +7,8 @@
     "WWW"
   ],
   "key": {
-    "W": {
-      "item": "minecraft:cyan_wool"
-    },
-    "I": {
-      "item": "minecraft:iron_block"
-    }
+    "W": "minecraft:cyan_wool",
+    "I": "minecraft:iron_block"
   },
   "result": {
     "id": "craftablecapes:minecon_2015_cape",

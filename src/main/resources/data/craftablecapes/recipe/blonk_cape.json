@@ -7,9 +7,7 @@
     "WWW"
   ],
   "key": {
-    "W": {
-      "item": "minecraft:red_wool"
-    }
+    "W": "minecraft:red_wool"
   },
   "result": {
     "id": "craftablecapes:blonk_cape",

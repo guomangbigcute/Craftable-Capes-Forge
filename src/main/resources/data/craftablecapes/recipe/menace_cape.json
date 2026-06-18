@@ -7,12 +7,8 @@
     "WWW"
   ],
   "key": {
-    "W": {
-      "item": "minecraft:black_wool"
-    },
-    "I": {
-      "item": "minecraft:flint_and_steel"
-    }
+    "W": "minecraft:black_wool",
+    "I": "minecraft:flint_and_steel"
   },
   "result": {
     "id": "craftablecapes:menace_cape",

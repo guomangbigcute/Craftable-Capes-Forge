@@ -6,15 +6,9 @@
     "WWW"
   ],
   "key": {
-    "B": {
-      "item": "minecraft:blue_wool"
-    },
-    "W": {
-      "item": "minecraft:white_wool"
-    },
-    "I": {
-      "item": "minecraft:diorite"
-    }
+    "B": "minecraft:blue_wool",
+    "W": "minecraft:white_wool",
+    "I": "minecraft:diorite"
   },
   "result": {
     "id": "craftablecapes:moonlight_trail_cape",

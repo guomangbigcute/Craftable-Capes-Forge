@@ -7,12 +7,8 @@
     "WWW"
   ],
   "key": {
-    "W": {
-      "item": "minecraft:black_wool"
-    },
-    "I": {
-      "item": "minecraft:poppy"
-    }
+    "W": "minecraft:black_wool",
+    "I": "minecraft:poppy"
   },
   "result": {
     "id": "craftablecapes:mojang_office_cape",

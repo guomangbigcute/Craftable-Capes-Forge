@@ -7,12 +7,8 @@
     "WWW"
   ],
   "key": {
-    "W": {
-      "item": "minecraft:purple_wool"
-    },
-    "I": {
-      "item": "minecraft:golden_apple"
-    }
+    "W": "minecraft:purple_wool",
+    "I": "minecraft:golden_apple"
   },
   "result": {
     "id": "craftablecapes:villager_rescue_cape",

@@ -7,18 +7,10 @@
     "GMG"
   ],
   "key": {
-    "G": {
-      "item": "minecraft:lime_wool"
-    },
-    "W": {
-      "item": "minecraft:white_wool"
-    },
-    "B": {
-      "item": "minecraft:black_wool"
-    },
-    "M": {
-      "item": "minecraft:magenta_wool"
-    }
+    "G": "minecraft:lime_wool",
+    "W": "minecraft:white_wool",
+    "B": "minecraft:black_wool",
+    "M": "minecraft:magenta_wool"
   },
   "result": {
     "id": "craftablecapes:spade_cape",

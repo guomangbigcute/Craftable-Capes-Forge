@@ -7,12 +7,8 @@
     "WWW"
   ],
   "key": {
-    "W": {
-      "item": "minecraft:black_wool"
-    },
-    "I": {
-      "item": "minecraft:tropical_fish_bucket"
-    }
+    "W": "minecraft:black_wool",
+    "I": "minecraft:tropical_fish_bucket"
   },
   "result": {
     "id": "craftablecapes:frog_cape",

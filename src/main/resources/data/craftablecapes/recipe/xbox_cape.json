@@ -7,12 +7,8 @@
     "WWW"
   ],
   "key": {
-    "W": {
-      "item": "minecraft:white_wool"
-    },
-    "I": {
-      "item": "minecraft:emerald_block"
-    }
+    "W": "minecraft:white_wool",
+    "I": "minecraft:emerald_block"
   },
   "result": {
     "id": "craftablecapes:xbox_cape",

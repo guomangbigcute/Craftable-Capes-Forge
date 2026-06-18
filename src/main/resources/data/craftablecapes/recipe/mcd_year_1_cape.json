@@ -7,12 +7,8 @@
     "WWW"
   ],
   "key": {
-    "W": {
-      "item": "minecraft:pink_wool"
-    },
-    "I": {
-      "item": "minecraft:firework_rocket"
-    }
+    "W": "minecraft:pink_wool",
+    "I": "minecraft:firework_rocket"
   },
   "result": {
     "id": "craftablecapes:mcd_year_1_cape",

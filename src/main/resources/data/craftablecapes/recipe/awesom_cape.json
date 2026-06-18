@@ -7,12 +7,8 @@
     "WWW"
   ],
   "key": {
-    "W": {
-      "item": "minecraft:lime_wool"
-    },
-    "I": {
-      "item": "minecraft:diamond"
-    }
+    "W": "minecraft:lime_wool",
+    "I": "minecraft:diamond"
   },
   "result": {
     "id": "craftablecapes:awesom_cape",

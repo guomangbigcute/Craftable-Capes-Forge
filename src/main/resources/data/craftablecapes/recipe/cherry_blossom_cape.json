@@ -7,12 +7,8 @@
     "WWW"
   ],
   "key": {
-    "W": {
-      "item": "minecraft:pink_wool"
-    },
-    "I": {
-      "item": "minecraft:pink_dye"
-    }
+    "W": "minecraft:pink_wool",
+    "I": "minecraft:pink_dye"
   },
   "result": {
     "id": "craftablecapes:cherry_blossom_cape",

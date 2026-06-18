@@ -7,12 +7,8 @@
     "WWW"
   ],
   "key": {
-    "W": {
-      "item": "minecraft:white_wool"
-    },
-    "I": {
-      "item": "minecraft:light_blue_wool"
-    }
+    "W": "minecraft:white_wool",
+    "I": "minecraft:light_blue_wool"
   },
   "result": {
     "id": "craftablecapes:mcd_cloudy_climb_cape",

@@ -7,12 +7,8 @@
     "WWW"
   ],
   "key": {
-    "W": {
-      "item": "minecraft:pink_wool"
-    },
-    "I": {
-      "item": "minecraft:porkchop"
-    }
+    "W": "minecraft:pink_wool",
+    "I": "minecraft:porkchop"
   },
   "result": {
     "id": "craftablecapes:bacon_cape",

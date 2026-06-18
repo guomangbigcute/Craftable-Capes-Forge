@@ -7,12 +7,8 @@
     "WWW"
   ],
   "key": {
-    "W": {
-      "item": "minecraft:light_blue_wool"
-    },
-    "I": {
-      "item": "minecraft:grass_block"
-    }
+    "W": "minecraft:light_blue_wool",
+    "I": "minecraft:grass_block"
   },
   "result": {
     "id": "craftablecapes:realms_cape",

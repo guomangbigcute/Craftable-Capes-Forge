@@ -7,12 +7,8 @@
     "WWW"
   ],
   "key": {
-    "W": {
-      "item": "minecraft:red_wool"
-    },
-    "I": {
-      "item": "minecraft:enchanted_golden_apple"
-    }
+    "W": "minecraft:red_wool",
+    "I": "minecraft:enchanted_golden_apple"
   },
   "result": {
     "id": "craftablecapes:mojang_cape",

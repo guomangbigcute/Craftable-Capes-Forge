@@ -7,12 +7,8 @@
     "WWW"
   ],
   "key": {
-    "W": {
-      "item": "minecraft:gray_wool"
-    },
-    "I": {
-      "item": "minecraft:obsidian"
-    }
+    "W": "minecraft:gray_wool",
+    "I": "minecraft:obsidian"
   },
   "result": {
     "id": "craftablecapes:minecon_9_cape",

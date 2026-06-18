@@ -7,12 +7,8 @@
     "WWW"
   ],
   "key": {
-    "W": {
-      "item": "minecraft:yellow_wool"
-    },
-    "I": {
-      "item": "minecraft:gunpowder"
-    }
+    "W": "minecraft:yellow_wool",
+    "I": "minecraft:gunpowder"
   },
   "result": {
     "id": "craftablecapes:10_years_cape",

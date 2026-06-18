@@ -7,12 +7,8 @@
     "WWW"
   ],
   "key": {
-    "W": {
-      "item": "minecraft:brown_wool"
-    },
-    "I": {
-      "item": "minecraft:book"
-    }
+    "W": "minecraft:brown_wool",
+    "I": "minecraft:book"
   },
   "result": {
     "id": "craftablecapes:translator_cape",

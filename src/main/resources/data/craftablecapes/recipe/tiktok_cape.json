@@ -7,18 +7,10 @@
     "BBB"
   ],
   "key": {
-    "B": {
-      "item": "minecraft:black_wool"
-    },
-    "L": {
-      "item": "minecraft:lapis_lazuli"
-    },
-    "G": {
-      "item": "minecraft:gunpowder"
-    },
-    "R": {
-      "item": "minecraft:redstone"
-    }
+    "B": "minecraft:black_wool",
+    "L": "minecraft:lapis_lazuli",
+    "G": "minecraft:gunpowder",
+    "R": "minecraft:redstone"
   },
   "result": {
     "id": "craftablecapes:tiktok_cape",

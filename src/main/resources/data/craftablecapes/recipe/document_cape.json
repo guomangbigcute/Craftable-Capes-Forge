@@ -7,12 +7,8 @@
     "BBB"
   ],
   "key": {
-    "B": {
-      "item": "minecraft:light_blue_wool"
-    },
-    "P": {
-      "item": "minecraft:paper"
-    }
+    "B": "minecraft:light_blue_wool",
+    "P": "minecraft:paper"
   },
   "result": {
     "id": "craftablecapes:document_cape",

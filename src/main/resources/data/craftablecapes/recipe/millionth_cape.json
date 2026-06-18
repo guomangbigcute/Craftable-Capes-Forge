@@ -7,12 +7,8 @@
     "WWW"
   ],
   "key": {
-    "W": {
-      "item": "minecraft:purple_wool"
-    },
-    "I": {
-      "item": "minecraft:nether_star"
-    }
+    "W": "minecraft:purple_wool",
+    "I": "minecraft:nether_star"
   },
   "result": {
     "id": "craftablecapes:millionth_cape",

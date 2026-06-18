@@ -7,12 +7,8 @@
     "WWW"
   ],
   "key": {
-    "W": {
-      "item": "minecraft:purple_wool"
-    },
-    "I": {
-      "item": "minecraft:amethyst_shard"
-    }
+    "W": "minecraft:purple_wool",
+    "I": "minecraft:amethyst_shard"
   },
   "result": {
     "id": "craftablecapes:mcd_amethyst_cape",

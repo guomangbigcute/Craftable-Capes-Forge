@@ -7,15 +7,9 @@
     "GGG"
   ],
   "key": {
-    "O": {
-      "item": "minecraft:orange_wool"
-    },
-    "G": {
-      "item": "minecraft:green_wool"
-    },
-    "C": {
-      "item": "minecraft:copper_ingot"
-    }
+    "O": "minecraft:orange_wool",
+    "G": "minecraft:green_wool",
+    "C": "minecraft:copper_ingot"
   },
   "result": {
     "id": "craftablecapes:copper_cape",

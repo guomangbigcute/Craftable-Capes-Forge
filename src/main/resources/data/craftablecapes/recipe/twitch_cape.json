@@ -7,15 +7,9 @@
     "PWP"
   ],
   "key": {
-    "P": {
-      "item": "minecraft:purple_wool"
-    },
-    "W": {
-      "item": "minecraft:white_wool"
-    },
-    "T": {
-      "item": "minecraft:ghast_tear"
-    }
+    "P": "minecraft:purple_wool",
+    "W": "minecraft:white_wool",
+    "T": "minecraft:ghast_tear"
   },
   "result": {
     "id": "craftablecapes:twitch_cape",

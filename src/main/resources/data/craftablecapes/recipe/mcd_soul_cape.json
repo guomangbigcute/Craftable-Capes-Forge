@@ -7,12 +7,8 @@
     "WWW"
   ],
   "key": {
-    "W": {
-      "item": "minecraft:black_wool"
-    },
-    "I": {
-      "item": "minecraft:soul_soil"
-    }
+    "W": "minecraft:black_wool",
+    "I": "minecraft:soul_soil"
   },
   "result": {
     "id": "craftablecapes:mcd_soul_cape",

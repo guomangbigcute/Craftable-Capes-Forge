@@ -7,12 +7,8 @@
     "WWW"
   ],
   "key": {
-    "W": {
-      "item": "minecraft:black_wool"
-    },
-    "I": {
-      "item": "minecraft:candle"
-    }
+    "W": "minecraft:black_wool",
+    "I": "minecraft:candle"
   },
   "result": {
     "id": "craftablecapes:mojira_cape",
