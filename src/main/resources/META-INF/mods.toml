@@ -68,6 +68,6 @@ side="BOTH"
 [[dependencies.${mod_id}]]
 modId="curios"
 mandatory=true
-versionRange="[15.0,)"
+versionRange="[15.0.0-beta.2,)"
 ordering="AFTER"
 side="BOTH"
