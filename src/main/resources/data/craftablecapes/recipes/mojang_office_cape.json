@@ -1,20 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "equipment",
   "pattern": [
     "WWW",
     "WIW",
     "WWW"
   ],
   "key": {
-    "W": {
-      "item": "minecraft:black_wool"
-    },
-    "I": {
-      "item": "minecraft:poppy"
-    }
+    "W": "minecraft:black_wool",
+    "I": "minecraft:poppy"
   },
   "result": {
-    "item": "craftablecapes:mojang_office_cape",
+    "id": "craftablecapes:mojang_office_cape",
     "count": 1
   }
 }

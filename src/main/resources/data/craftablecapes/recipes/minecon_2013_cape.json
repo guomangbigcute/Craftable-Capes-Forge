@@ -1,20 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "equipment",
   "pattern": [
     "WWW",
     "WIW",
     "WWW"
   ],
   "key": {
-    "W": {
-      "item": "minecraft:green_wool"
-    },
-    "I": {
-      "item": "minecraft:piston"
-    }
+    "W": "minecraft:green_wool",
+    "I": "minecraft:piston"
   },
   "result": {
-    "item": "craftablecapes:minecon_2013_cape",
+    "id": "craftablecapes:minecon_2013_cape",
     "count": 1
   }
 }

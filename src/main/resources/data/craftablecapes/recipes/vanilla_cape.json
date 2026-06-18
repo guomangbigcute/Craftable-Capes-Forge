@@ -1,23 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "equipment",
   "pattern": [
     "GGG",
     "BBB",
     "XXX"
   ],
   "key": {
-    "G": {
-      "item": "minecraft:green_wool"
-    },
-    "B": {
-      "item": "minecraft:brown_wool"
-    },
-    "X": {
-      "item": "minecraft:black_wool"
-    }
+    "G": "minecraft:green_wool",
+    "B": "minecraft:brown_wool",
+    "X": "minecraft:black_wool"
   },
   "result": {
-    "item": "craftablecapes:vanilla_cape",
+    "id": "craftablecapes:vanilla_cape",
     "count": 1
   }
 }

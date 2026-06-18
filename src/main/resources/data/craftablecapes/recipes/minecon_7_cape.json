@@ -1,20 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "equipment",
   "pattern": [
     "WWW",
     "WIW",
     "WWW"
   ],
   "key": {
-    "W": {
-      "item": "minecraft:orange_wool"
-    },
-    "I": {
-      "item": "minecraft:torch"
-    }
+    "W": "minecraft:orange_wool",
+    "I": "minecraft:torch"
   },
   "result": {
-    "item": "craftablecapes:minecon_7_cape",
+    "id": "craftablecapes:minecon_7_cape",
     "count": 1
   }
 }

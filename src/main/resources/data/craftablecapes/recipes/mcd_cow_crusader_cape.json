@@ -1,20 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "equipment",
   "pattern": [
     "WWW",
     "WIW",
     "WWW"
   ],
   "key": {
-    "W": {
-      "item": "minecraft:brown_wool"
-    },
-    "I": {
-      "item": "minecraft:leather"
-    }
+    "W": "minecraft:brown_wool",
+    "I": "minecraft:leather"
   },
   "result": {
-    "item": "craftablecapes:mcd_cow_crusader_cape",
+    "id": "craftablecapes:mcd_cow_crusader_cape",
     "count": 1
   }
 }

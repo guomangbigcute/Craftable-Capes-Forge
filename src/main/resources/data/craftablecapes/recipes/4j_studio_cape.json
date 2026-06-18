@@ -1,23 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "equipment",
   "pattern": [
     "RRR",
     "WIW",
     "WWW"
   ],
   "key": {
-    "R": {
-      "item": "minecraft:red_wool"
-    },
-    "W": {
-      "item": "minecraft:white_wool"
-    },
-    "I": {
-      "item": "minecraft:iron_ingot"
-    }
+    "R": "minecraft:red_wool",
+    "W": "minecraft:white_wool",
+    "I": "minecraft:iron_ingot"
   },
   "result": {
-    "item": "craftablecapes:4j_studio_cape",
+    "id": "craftablecapes:4j_studio_cape",
     "count": 1
   }
 }

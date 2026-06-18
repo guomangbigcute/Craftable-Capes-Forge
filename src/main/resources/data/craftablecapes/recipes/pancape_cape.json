@@ -1,20 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "equipment",
   "pattern": [
     "WWW",
     "WIW",
     "WWW"
   ],
   "key": {
-    "W": {
-      "item": "minecraft:light_blue_wool"
-    },
-    "I": {
-      "item": "minecraft:bread"
-    }
+    "W": "minecraft:light_blue_wool",
+    "I": "minecraft:bread"
   },
   "result": {
-    "item": "craftablecapes:pancape_cape",
+    "id": "craftablecapes:pancape_cape",
     "count": 1
   }
 }

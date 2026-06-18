@@ -1,20 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "equipment",
   "pattern": [
     "WWW",
     "WIW",
     "WWW"
   ],
   "key": {
-    "W": {
-      "item": "minecraft:yellow_wool"
-    },
-    "I": {
-      "item": "minecraft:ladder"
-    }
+    "W": "minecraft:yellow_wool",
+    "I": "minecraft:ladder"
   },
   "result": {
-    "item": "craftablecapes:minecon_15_cape",
+    "id": "craftablecapes:minecon_15_cape",
     "count": 1
   }
 }

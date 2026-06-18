@@ -1,18 +1,12 @@
 {
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
-    {
-      "item": "minecraft:yellow_dye"
-    },
-    {
-      "item": "minecraft:red_dye"
-    },
-    {
-      "item": "craftablecapes:translator_cape"
-    }
+    "minecraft:yellow_dye",
+    "minecraft:red_dye",
+    "craftablecapes:translator_cape"
   ],
   "result": {
-    "item": "craftablecapes:translator_cn_cape",
+    "id": "craftablecapes:translator_cn_cape",
     "count": 1
   }
 }

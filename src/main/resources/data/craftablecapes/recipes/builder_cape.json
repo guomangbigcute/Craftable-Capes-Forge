@@ -1,26 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "equipment",
   "pattern": [
     "OBO",
     "WIW",
     "OWO"
   ],
   "key": {
-    "O": {
-      "item": "minecraft:orange_wool"
-    },
-    "B": {
-      "item": "minecraft:brown_wool"
-    },
-    "W": {
-      "item": "minecraft:white_wool"
-    },
-    "I": {
-      "item": "minecraft:crafting_table"
-    }
+    "O": "minecraft:orange_wool",
+    "B": "minecraft:brown_wool",
+    "W": "minecraft:white_wool",
+    "I": "minecraft:crafting_table"
   },
   "result": {
-    "item": "craftablecapes:builder_cape",
+    "id": "craftablecapes:builder_cape",
     "count": 1
   }
 }

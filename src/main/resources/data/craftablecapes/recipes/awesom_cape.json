@@ -1,20 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "equipment",
   "pattern": [
     "WWW",
     "WIW",
     "WWW"
   ],
   "key": {
-    "W": {
-      "item": "minecraft:lime_wool"
-    },
-    "I": {
-      "item": "minecraft:diamond"
-    }
+    "W": "minecraft:lime_wool",
+    "I": "minecraft:diamond"
   },
   "result": {
-    "item": "craftablecapes:awesom_cape",
+    "id": "craftablecapes:awesom_cape",
     "count": 1
   }
 }

@@ -1,20 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "equipment",
   "pattern": [
     "WWW",
     "WIW",
     "WWW"
   ],
   "key": {
-    "W": {
-      "item": "minecraft:cyan_wool"
-    },
-    "I": {
-      "item": "minecraft:iron_block"
-    }
+    "W": "minecraft:cyan_wool",
+    "I": "minecraft:iron_block"
   },
   "result": {
-    "item": "craftablecapes:minecon_2015_cape",
+    "id": "craftablecapes:minecon_2015_cape",
     "count": 1
   }
 }

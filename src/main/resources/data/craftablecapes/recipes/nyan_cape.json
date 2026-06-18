@@ -1,26 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "equipment",
   "pattern": [
     "XRX",
     "XGX",
     "XBX"
   ],
   "key": {
-    "X": {
-      "item": "minecraft:black_wool"
-    },
-    "R": {
-      "item": "minecraft:red_wool"
-    },
-    "G": {
-      "item": "minecraft:green_wool"
-    },
-    "B": {
-      "item": "minecraft:blue_wool"
-    }
+    "X": "minecraft:black_wool",
+    "R": "minecraft:red_wool",
+    "G": "minecraft:green_wool",
+    "B": "minecraft:blue_wool"
   },
   "result": {
-    "item": "craftablecapes:nyan_cape",
+    "id": "craftablecapes:nyan_cape",
     "count": 1
   }
 }

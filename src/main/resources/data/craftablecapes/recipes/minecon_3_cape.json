@@ -1,20 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "equipment",
   "pattern": [
     "WWW",
     "WIW",
     "WWW"
   ],
   "key": {
-    "W": {
-      "item": "minecraft:green_wool"
-    },
-    "I": {
-      "item": "minecraft:phantom_membrane"
-    }
+    "W": "minecraft:green_wool",
+    "I": "minecraft:phantom_membrane"
   },
   "result": {
-    "item": "craftablecapes:minecon_3_cape",
+    "id": "craftablecapes:minecon_3_cape",
     "count": 1
   }
 }

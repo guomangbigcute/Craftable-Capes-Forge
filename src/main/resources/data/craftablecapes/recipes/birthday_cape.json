@@ -1,20 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "equipment",
   "pattern": [
     "WWW",
     "WIW",
     "WWW"
   ],
   "key": {
-    "W": {
-      "item": "minecraft:blue_wool"
-    },
-    "I": {
-      "item": "minecraft:cake"
-    }
+    "W": "minecraft:blue_wool",
+    "I": "minecraft:cake"
   },
   "result": {
-    "item": "craftablecapes:birthday_cape",
+    "id": "craftablecapes:birthday_cape",
     "count": 1
   }
 }

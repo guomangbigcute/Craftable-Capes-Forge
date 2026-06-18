@@ -1,23 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "equipment",
   "pattern": [
     "WWW",
     "WGW",
     "YYY"
   ],
   "key": {
-    "W": {
-      "item": "minecraft:red_wool"
-    },
-    "G": {
-      "item": "minecraft:gold_ingot"
-    },
-    "Y": {
-      "item": "minecraft:yellow_wool"
-    }
+    "W": "minecraft:red_wool",
+    "G": "minecraft:gold_ingot",
+    "Y": "minecraft:yellow_wool"
   },
   "result": {
-    "item": "craftablecapes:minecon_10_cape",
+    "id": "craftablecapes:minecon_10_cape",
     "count": 1
   }
 }

@@ -1,20 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "equipment",
   "pattern": [
     "WWW",
     "WIW",
     "WWW"
   ],
   "key": {
-    "W": {
-      "item": "minecraft:yellow_wool"
-    },
-    "I": {
-      "item": "minecraft:paper"
-    }
+    "W": "minecraft:yellow_wool",
+    "I": "minecraft:paper"
   },
   "result": {
-    "item": "craftablecapes:scrolls_cape",
+    "id": "craftablecapes:scrolls_cape",
     "count": 1
   }
 }

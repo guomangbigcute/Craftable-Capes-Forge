@@ -1,20 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "equipment",
   "pattern": [
     "WWW",
     "WIW",
     "WWW"
   ],
   "key": {
-    "W": {
-      "item": "minecraft:gray_wool"
-    },
-    "I": {
-      "item": "minecraft:obsidian"
-    }
+    "W": "minecraft:gray_wool",
+    "I": "minecraft:obsidian"
   },
   "result": {
-    "item": "craftablecapes:minecon_9_cape",
+    "id": "craftablecapes:minecon_9_cape",
     "count": 1
   }
 }

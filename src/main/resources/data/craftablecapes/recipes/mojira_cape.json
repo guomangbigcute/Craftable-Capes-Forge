@@ -1,20 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "equipment",
   "pattern": [
     "WWW",
     "WIW",
     "WWW"
   ],
   "key": {
-    "W": {
-      "item": "minecraft:black_wool"
-    },
-    "I": {
-      "item": "minecraft:candle"
-    }
+    "W": "minecraft:black_wool",
+    "I": "minecraft:candle"
   },
   "result": {
-    "item": "craftablecapes:mojira_cape",
+    "id": "craftablecapes:mojira_cape",
     "count": 1
   }
 }

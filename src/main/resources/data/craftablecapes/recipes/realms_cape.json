@@ -1,20 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "equipment",
   "pattern": [
     "WWW",
     "WIW",
     "WWW"
   ],
   "key": {
-    "W": {
-      "item": "minecraft:light_blue_wool"
-    },
-    "I": {
-      "item": "minecraft:grass_block"
-    }
+    "W": "minecraft:light_blue_wool",
+    "I": "minecraft:grass_block"
   },
   "result": {
-    "item": "craftablecapes:realms_cape",
+    "id": "craftablecapes:realms_cape",
     "count": 1
   }
 }

@@ -1,20 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "equipment",
   "pattern": [
     "WWW",
     "WIW",
     "WWW"
   ],
   "key": {
-    "W": {
-      "item": "minecraft:purple_wool"
-    },
-    "I": {
-      "item": "minecraft:golden_apple"
-    }
+    "W": "minecraft:purple_wool",
+    "I": "minecraft:golden_apple"
   },
   "result": {
-    "item": "craftablecapes:villager_rescue_cape",
+    "id": "craftablecapes:villager_rescue_cape",
     "count": 1
   }
 }

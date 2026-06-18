@@ -1,20 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "equipment",
   "pattern": [
     "LWL",
     "WLW",
     "LWL"
   ],
   "key": {
-    "L": {
-      "item": "minecraft:lime_wool"
-    },
-    "W": {
-      "item": "minecraft:white_wool"
-    }
+    "L": "minecraft:lime_wool",
+    "W": "minecraft:white_wool"
   },
   "result": {
-    "item": "craftablecapes:minecon_11_cape",
+    "id": "craftablecapes:minecon_11_cape",
     "count": 1
   }
 }

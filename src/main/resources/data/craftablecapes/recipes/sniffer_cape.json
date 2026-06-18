@@ -1,20 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "equipment",
   "pattern": [
     "WWW",
     "WIW",
     "WWW"
   ],
   "key": {
-    "W": {
-      "item": "minecraft:green_wool"
-    },
-    "I": {
-      "item": "minecraft:turtle_egg"
-    }
+    "W": "minecraft:green_wool",
+    "I": "minecraft:turtle_egg"
   },
   "result": {
-    "item": "craftablecapes:sniffer_cape",
+    "id": "craftablecapes:sniffer_cape",
     "count": 1
   }
 }

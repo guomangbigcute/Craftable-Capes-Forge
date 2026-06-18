@@ -1,20 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "equipment",
   "pattern": [
     "WWW",
     "WIW",
     "WWW"
   ],
   "key": {
-    "W": {
-      "item": "minecraft:black_wool"
-    },
-    "I": {
-      "item": "minecraft:soul_soil"
-    }
+    "W": "minecraft:black_wool",
+    "I": "minecraft:soul_soil"
   },
   "result": {
-    "item": "craftablecapes:mcd_soul_cape",
+    "id": "craftablecapes:mcd_soul_cape",
     "count": 1
   }
 }

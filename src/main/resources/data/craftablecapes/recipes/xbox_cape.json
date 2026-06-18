@@ -1,20 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "equipment",
   "pattern": [
     "WWW",
     "WIW",
     "WWW"
   ],
   "key": {
-    "W": {
-      "item": "minecraft:white_wool"
-    },
-    "I": {
-      "item": "minecraft:emerald_block"
-    }
+    "W": "minecraft:white_wool",
+    "I": "minecraft:emerald_block"
   },
   "result": {
-    "item": "craftablecapes:xbox_cape",
+    "id": "craftablecapes:xbox_cape",
     "count": 1
   }
 }

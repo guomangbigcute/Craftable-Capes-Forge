@@ -1,20 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "equipment",
   "pattern": [
     "WWW",
     "WIW",
     "WWW"
   ],
   "key": {
-    "W": {
-      "item": "minecraft:cyan_wool"
-    },
-    "I": {
-      "item": "minecraft:yellow_wool"
-    }
+    "W": "minecraft:cyan_wool",
+    "I": "minecraft:yellow_wool"
   },
   "result": {
-    "item": "craftablecapes:mcd_fauna_faire_cape",
+    "id": "craftablecapes:mcd_fauna_faire_cape",
     "count": 1
   }
 }

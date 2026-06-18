@@ -1,20 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "equipment",
   "pattern": [
     "WWW",
     "WIW",
     "WWW"
   ],
   "key": {
-    "W": {
-      "item": "minecraft:blue_wool"
-    },
-    "I": {
-      "item": "minecraft:gold_ingot"
-    }
+    "W": "minecraft:blue_wool",
+    "I": "minecraft:gold_ingot"
   },
   "result": {
-    "item": "craftablecapes:db_cape",
+    "id": "craftablecapes:db_cape",
     "count": 1
   }
 }

@@ -1,20 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "equipment",
   "pattern": [
     "WWW",
     "WIW",
     "WWW"
   ],
   "key": {
-    "W": {
-      "item": "minecraft:blue_wool"
-    },
-    "I": {
-      "item": "minecraft:glow_ink_sac"
-    }
+    "W": "minecraft:blue_wool",
+    "I": "minecraft:glow_ink_sac"
   },
   "result": {
-    "item": "craftablecapes:mcd_glow_cape",
+    "id": "craftablecapes:mcd_glow_cape",
     "count": 1
   }
 }

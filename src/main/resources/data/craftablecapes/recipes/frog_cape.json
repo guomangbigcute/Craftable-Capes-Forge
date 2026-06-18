@@ -1,20 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "equipment",
   "pattern": [
     "WWW",
     "WIW",
     "WWW"
   ],
   "key": {
-    "W": {
-      "item": "minecraft:black_wool"
-    },
-    "I": {
-      "item": "minecraft:tropical_fish_bucket"
-    }
+    "W": "minecraft:black_wool",
+    "I": "minecraft:tropical_fish_bucket"
   },
   "result": {
-    "item": "craftablecapes:frog_cape",
+    "id": "craftablecapes:frog_cape",
     "count": 1
   }
 }

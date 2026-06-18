@@ -1,20 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "equipment",
   "pattern": [
     "WWW",
     "WIW",
     "WWW"
   ],
   "key": {
-    "W": {
-      "item": "minecraft:cyan_wool"
-    },
-    "I": {
-      "item": "minecraft:prismarine_bricks"
-    }
+    "W": "minecraft:cyan_wool",
+    "I": "minecraft:prismarine_bricks"
   },
   "result": {
-    "item": "craftablecapes:prismarine_cape",
+    "id": "craftablecapes:prismarine_cape",
     "count": 1
   }
 }

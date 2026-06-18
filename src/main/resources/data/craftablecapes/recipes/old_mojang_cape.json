@@ -1,20 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "equipment",
   "pattern": [
     "WWW",
     "WIW",
     "WWW"
   ],
   "key": {
-    "W": {
-      "item": "minecraft:brown_wool"
-    },
-    "I": {
-      "item": "minecraft:enchanted_golden_apple"
-    }
+    "W": "minecraft:brown_wool",
+    "I": "minecraft:enchanted_golden_apple"
   },
   "result": {
-    "item": "craftablecapes:old_mojang_cape",
+    "id": "craftablecapes:old_mojang_cape",
     "count": 1
   }
 }

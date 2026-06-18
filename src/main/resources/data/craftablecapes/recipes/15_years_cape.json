@@ -1,20 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "equipment",
   "pattern": [
     "WWW",
     "WIW",
     "WWW"
   ],
   "key": {
-    "W": {
-      "item": "minecraft:lime_wool"
-    },
-    "I": {
-      "item": "minecraft:gunpowder"
-    }
+    "W": "minecraft:lime_wool",
+    "I": "minecraft:gunpowder"
   },
   "result": {
-    "item": "craftablecapes:15_years_cape",
+    "id": "craftablecapes:15_years_cape",
     "count": 1
   }
 }

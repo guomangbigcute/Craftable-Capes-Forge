@@ -1,20 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "equipment",
   "pattern": [
     "WWW",
     "WIW",
     "WWW"
   ],
   "key": {
-    "W": {
-      "item": "minecraft:black_wool"
-    },
-    "I": {
-      "item": "minecraft:sea_lantern"
-    }
+    "W": "minecraft:black_wool",
+    "I": "minecraft:sea_lantern"
   },
   "result": {
-    "item": "craftablecapes:mcd_luminous_night_cape",
+    "id": "craftablecapes:mcd_luminous_night_cape",
     "count": 1
   }
 }

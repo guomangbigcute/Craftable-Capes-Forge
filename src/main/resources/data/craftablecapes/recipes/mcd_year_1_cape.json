@@ -1,20 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "equipment",
   "pattern": [
     "WWW",
     "WIW",
     "WWW"
   ],
   "key": {
-    "W": {
-      "item": "minecraft:pink_wool"
-    },
-    "I": {
-      "item": "minecraft:firework_rocket"
-    }
+    "W": "minecraft:pink_wool",
+    "I": "minecraft:firework_rocket"
   },
   "result": {
-    "item": "craftablecapes:mcd_year_1_cape",
+    "id": "craftablecapes:mcd_year_1_cape",
     "count": 1
   }
 }

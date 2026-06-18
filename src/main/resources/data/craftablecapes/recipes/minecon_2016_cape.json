@@ -1,20 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "equipment",
   "pattern": [
     "WWW",
     "WIW",
     "WWW"
   ],
   "key": {
-    "W": {
-      "item": "minecraft:black_wool"
-    },
-    "I": {
-      "item": "minecraft:ender_pearl"
-    }
+    "W": "minecraft:black_wool",
+    "I": "minecraft:ender_pearl"
   },
   "result": {
-    "item": "craftablecapes:minecon_2016_cape",
+    "id": "craftablecapes:minecon_2016_cape",
     "count": 1
   }
 }

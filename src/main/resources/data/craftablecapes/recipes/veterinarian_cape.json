@@ -1,20 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "equipment",
   "pattern": [
     "WWW",
     "WIW",
     "WWW"
   ],
   "key": {
-    "W": {
-      "item": "minecraft:purple_wool"
-    },
-    "I": {
-      "item": "minecraft:cod"
-    }
+    "W": "minecraft:purple_wool",
+    "I": "minecraft:cod"
   },
   "result": {
-    "item": "craftablecapes:veterinarian_cape",
+    "id": "craftablecapes:veterinarian_cape",
     "count": 1
   }
 }

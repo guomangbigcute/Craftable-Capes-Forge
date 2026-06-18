@@ -1,20 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "equipment",
   "pattern": [
     "WWW",
     "WIW",
     "WWW"
   ],
   "key": {
-    "W": {
-      "item": "minecraft:brown_wool"
-    },
-    "I": {
-      "item": "minecraft:book"
-    }
+    "W": "minecraft:brown_wool",
+    "I": "minecraft:book"
   },
   "result": {
-    "item": "craftablecapes:translator_cape",
+    "id": "craftablecapes:translator_cape",
     "count": 1
   }
 }

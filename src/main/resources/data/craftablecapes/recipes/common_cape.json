@@ -1,23 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "equipment",
   "pattern": [
     "GGG",
     "DXD",
     "DDD"
   ],
   "key": {
-    "G": {
-      "item": "minecraft:green_wool"
-    },
-    "D": {
-      "item": "minecraft:brown_wool"
-    },
-    "X": {
-      "item": "minecraft:dirt"
-    }
+    "G": "minecraft:green_wool",
+    "D": "minecraft:brown_wool",
+    "X": "minecraft:dirt"
   },
   "result": {
-    "item": "craftablecapes:common_cape",
+    "id": "craftablecapes:common_cape",
     "count": 1
   }
 }

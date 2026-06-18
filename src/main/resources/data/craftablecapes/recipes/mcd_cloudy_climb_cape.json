@@ -1,20 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "equipment",
   "pattern": [
     "WWW",
     "WIW",
     "WWW"
   ],
   "key": {
-    "W": {
-      "item": "minecraft:white_wool"
-    },
-    "I": {
-      "item": "minecraft:light_blue_wool"
-    }
+    "W": "minecraft:white_wool",
+    "I": "minecraft:light_blue_wool"
   },
   "result": {
-    "item": "craftablecapes:mcd_cloudy_climb_cape",
+    "id": "craftablecapes:mcd_cloudy_climb_cape",
     "count": 1
   }
 }
