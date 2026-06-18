@@ -17,7 +17,7 @@
     }
   },
   "result": {
-    "item": "craftablecapes:twitch_cape",
+    "id": "craftablecapes:twitch_cape",
     "count": 1
   }
 }

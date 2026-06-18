@@ -17,7 +17,7 @@
     }
   },
   "result": {
-    "item": "craftablecapes:migrator_cape",
+    "id": "craftablecapes:migrator_cape",
     "count": 1
   }
 }

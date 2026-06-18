@@ -20,7 +20,7 @@
     }
   },
   "result": {
-    "item": "craftablecapes:spade_cape",
+    "id": "craftablecapes:spade_cape",
     "count": 1
   }
 }

@@ -14,7 +14,7 @@
     }
   },
   "result": {
-    "item": "craftablecapes:snowman_cape",
+    "id": "craftablecapes:snowman_cape",
     "count": 1
   }
 }

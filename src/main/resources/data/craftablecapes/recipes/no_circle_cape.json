@@ -14,7 +14,7 @@
     }
   },
   "result": {
-    "item": "craftablecapes:no_circle_cape",
+    "id": "craftablecapes:no_circle_cape",
     "count": 1
   }
 }

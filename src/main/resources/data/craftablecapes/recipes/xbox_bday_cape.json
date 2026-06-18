@@ -5,11 +5,11 @@
       "item": "minecraft:cake"
     },
     {
-      "item": "craftablecapes:xbox_cape"
+      "id": "craftablecapes:xbox_cape"
     }
   ],
   "result": {
-    "item": "craftablecapes:xbox_bday_cape",
+    "id": "craftablecapes:xbox_bday_cape",
     "count": 1
   }
 }

@@ -14,7 +14,7 @@
     }
   },
   "result": {
-    "item": "craftablecapes:snail_cape",
+    "id": "craftablecapes:snail_cape",
     "count": 1
   }
 }

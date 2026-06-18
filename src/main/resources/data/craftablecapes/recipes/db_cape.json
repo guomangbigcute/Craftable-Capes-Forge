@@ -14,7 +14,7 @@
     }
   },
   "result": {
-    "item": "craftablecapes:db_cape",
+    "id": "craftablecapes:db_cape",
     "count": 1
   }
 }

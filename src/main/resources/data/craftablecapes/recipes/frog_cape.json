@@ -14,7 +14,7 @@
     }
   },
   "result": {
-    "item": "craftablecapes:frog_cape",
+    "id": "craftablecapes:frog_cape",
     "count": 1
   }
 }

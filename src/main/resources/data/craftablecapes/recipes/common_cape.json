@@ -17,7 +17,7 @@
     }
   },
   "result": {
-    "item": "craftablecapes:common_cape",
+    "id": "craftablecapes:common_cape",
     "count": 1
   }
 }

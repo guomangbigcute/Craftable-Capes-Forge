@@ -14,7 +14,7 @@
     }
   },
   "result": {
-    "item": "craftablecapes:bacon_cape",
+    "id": "craftablecapes:bacon_cape",
     "count": 1
   }
 }

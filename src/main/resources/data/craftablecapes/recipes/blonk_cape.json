@@ -11,7 +11,7 @@
     }
   },
   "result": {
-    "item": "craftablecapes:blonk_cape",
+    "id": "craftablecapes:blonk_cape",
     "count": 1
   }
 }

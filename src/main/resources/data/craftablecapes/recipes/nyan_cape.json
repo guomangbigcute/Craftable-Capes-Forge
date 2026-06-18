@@ -20,7 +20,7 @@
     }
   },
   "result": {
-    "item": "craftablecapes:nyan_cape",
+    "id": "craftablecapes:nyan_cape",
     "count": 1
   }
 }

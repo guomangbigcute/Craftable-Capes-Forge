@@ -14,7 +14,7 @@
     }
   },
   "result": {
-    "item": "craftablecapes:turtle_cape",
+    "id": "craftablecapes:turtle_cape",
     "count": 1
   }
 }

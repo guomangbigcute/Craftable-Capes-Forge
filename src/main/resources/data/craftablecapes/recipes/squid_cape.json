@@ -14,7 +14,7 @@
     }
   },
   "result": {
-    "item": "craftablecapes:squid_cape",
+    "id": "craftablecapes:squid_cape",
     "count": 1
   }
 }

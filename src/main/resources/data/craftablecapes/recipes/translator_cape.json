@@ -14,7 +14,7 @@
     }
   },
   "result": {
-    "item": "craftablecapes:translator_cape",
+    "id": "craftablecapes:translator_cape",
     "count": 1
   }
 }

@@ -17,7 +17,7 @@
     }
   },
   "result": {
-    "item": "craftablecapes:copper_cape",
+    "id": "craftablecapes:copper_cape",
     "count": 1
   }
 }

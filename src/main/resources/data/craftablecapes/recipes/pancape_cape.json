@@ -14,7 +14,7 @@
     }
   },
   "result": {
-    "item": "craftablecapes:pancape_cape",
+    "id": "craftablecapes:pancape_cape",
     "count": 1
   }
 }

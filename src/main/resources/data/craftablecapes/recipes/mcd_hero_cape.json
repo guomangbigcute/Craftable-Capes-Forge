@@ -14,7 +14,7 @@
     }
   },
   "result": {
-    "item": "craftablecapes:mcd_hero_cape",
+    "id": "craftablecapes:mcd_hero_cape",
     "count": 1
   }
 }

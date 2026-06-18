@@ -14,7 +14,7 @@
     }
   },
   "result": {
-    "item": "craftablecapes:sniffer_cape",
+    "id": "craftablecapes:sniffer_cape",
     "count": 1
   }
 }

@@ -14,7 +14,7 @@
     }
   },
   "result": {
-    "item": "craftablecapes:old_mojang_cape",
+    "id": "craftablecapes:old_mojang_cape",
     "count": 1
   }
 }

@@ -14,7 +14,7 @@
     }
   },
   "result": {
-    "item": "craftablecapes:scrolls_cape",
+    "id": "craftablecapes:scrolls_cape",
     "count": 1
   }
 }

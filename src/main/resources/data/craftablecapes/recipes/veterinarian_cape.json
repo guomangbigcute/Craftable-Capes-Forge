@@ -14,7 +14,7 @@
     }
   },
   "result": {
-    "item": "craftablecapes:veterinarian_cape",
+    "id": "craftablecapes:veterinarian_cape",
     "count": 1
   }
 }

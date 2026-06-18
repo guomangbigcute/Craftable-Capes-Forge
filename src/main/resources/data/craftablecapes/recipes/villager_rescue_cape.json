@@ -14,7 +14,7 @@
     }
   },
   "result": {
-    "item": "craftablecapes:villager_rescue_cape",
+    "id": "craftablecapes:villager_rescue_cape",
     "count": 1
   }
 }

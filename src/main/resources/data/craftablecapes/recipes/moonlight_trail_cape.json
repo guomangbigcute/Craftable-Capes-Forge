@@ -16,7 +16,7 @@
     }
   },
   "result": {
-    "item": "craftablecapes:moonlight_trail_cape",
+    "id": "craftablecapes:moonlight_trail_cape",
     "count": 1
   }
 }

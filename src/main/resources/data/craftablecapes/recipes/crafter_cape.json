@@ -20,7 +20,7 @@
     }
   },
   "result": {
-    "item": "craftablecapes:crafter_cape",
+    "id": "craftablecapes:crafter_cape",
     "count": 1
   }
 }

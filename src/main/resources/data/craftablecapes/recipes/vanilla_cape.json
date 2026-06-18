@@ -17,7 +17,7 @@
     }
   },
   "result": {
-    "item": "craftablecapes:vanilla_cape",
+    "id": "craftablecapes:vanilla_cape",
     "count": 1
   }
 }

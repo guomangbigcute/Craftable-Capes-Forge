@@ -14,7 +14,7 @@
     }
   },
   "result": {
-    "item": "craftablecapes:zombie_horse_cape",
+    "id": "craftablecapes:zombie_horse_cape",
     "count": 1
   }
 }

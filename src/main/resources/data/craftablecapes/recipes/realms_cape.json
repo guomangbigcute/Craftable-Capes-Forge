@@ -14,7 +14,7 @@
     }
   },
   "result": {
-    "item": "craftablecapes:realms_cape",
+    "id": "craftablecapes:realms_cape",
     "count": 1
   }
 }
