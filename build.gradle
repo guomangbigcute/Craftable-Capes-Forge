@@ -40,6 +40,7 @@ repositories {
 
 dependencies {
     implementation "maven.modrinth:curios:${curios_version}"
+    runtimeOnly "maven.modrinth:jei:27.4.0.22"
 }
 
 tasks.named('processResources', ProcessResources).configure {
