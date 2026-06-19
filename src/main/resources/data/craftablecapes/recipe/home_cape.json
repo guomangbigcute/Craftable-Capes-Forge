@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WWW",
+    "WIW",
+    "WWW"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:light_blue_wool"
+    },
+    "I": {
+      "item": "minecraft:flint_and_steel"
+    }
+  },
+  "result": {
+    "id": "craftablecapes:home_cape",
+    "count": 1
+  }
+}

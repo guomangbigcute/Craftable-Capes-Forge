@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "OWO",
+    "WIW",
+    "OBO"
+  ],
+  "key": {
+    "O": {
+      "item": "minecraft:orange_wool"
+    },
+    "W": {
+      "item": "minecraft:white_wool"
+    },
+    "B": {
+      "item": "minecraft:brown_wool"
+    },
+    "I": {
+      "item": "minecraft:crafting_table"
+    }
+  },
+  "result": {
+    "id": "craftablecapes:crafter_cape",
+    "count": 1
+  }
+}

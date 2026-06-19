@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WWW",
+    "WIW",
+    "WWW"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:light_gray_wool"
+    },
+    "I": {
+      "item": "minecraft:oak_planks"
+    }
+  },
+  "result": {
+    "id": "craftablecapes:yearn_cape",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WWW",
+    "WIW",
+    "WWW"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:lime_wool"
+    },
+    "I": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "id": "craftablecapes:awesom_cape",
+    "count": 1
+  }
+}

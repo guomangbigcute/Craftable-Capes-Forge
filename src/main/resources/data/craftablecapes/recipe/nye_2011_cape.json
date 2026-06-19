@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WWW",
+    "WIW",
+    "WWW"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:purple_wool"
+    },
+    "I": {
+      "item": "minecraft:firework_rocket"
+    }
+  },
+  "result": {
+    "id": "craftablecapes:nye_2011_cape",
+    "count": 1
+  }
+}

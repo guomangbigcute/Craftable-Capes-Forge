@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PWP",
+    "WTW",
+    "PWP"
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:purple_wool"
+    },
+    "W": {
+      "item": "minecraft:white_wool"
+    },
+    "T": {
+      "item": "minecraft:ghast_tear"
+    }
+  },
+  "result": {
+    "id": "craftablecapes:twitch_cape",
+    "count": 1
+  }
+}

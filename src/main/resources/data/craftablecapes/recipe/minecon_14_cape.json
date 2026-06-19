@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WWW",
+    "YWY",
+    "WYW"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:light_blue_wool"
+    },
+    "Y": {
+      "item": "minecraft:yellow_wool"
+    }
+  },
+  "result": {
+    "id": "craftablecapes:minecon_14_cape",
+    "count": 1
+  }
+}

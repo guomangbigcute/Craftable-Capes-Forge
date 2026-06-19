@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WWW",
+    "WIW",
+    "WWW"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:blue_wool"
+    },
+    "I": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "result": {
+    "id": "craftablecapes:mcd_downpour_cape",
+    "count": 1
+  }
+}

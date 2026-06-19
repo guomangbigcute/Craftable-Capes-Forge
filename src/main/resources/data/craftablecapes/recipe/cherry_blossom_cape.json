@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WWW",
+    "WIW",
+    "WWW"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:pink_wool"
+    },
+    "I": {
+      "item": "minecraft:pink_dye"
+    }
+  },
+  "result": {
+    "id": "craftablecapes:cherry_blossom_cape",
+    "count": 1
+  }
+}

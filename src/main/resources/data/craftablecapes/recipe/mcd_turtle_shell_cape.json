@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WWW",
+    "WIW",
+    "WWW"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:lime_wool"
+    },
+    "I": {
+      "item": "minecraft:turtle_scute"
+    }
+  },
+  "result": {
+    "id": "craftablecapes:mcd_turtle_shell_cape",
+    "count": 1
+  }
+}

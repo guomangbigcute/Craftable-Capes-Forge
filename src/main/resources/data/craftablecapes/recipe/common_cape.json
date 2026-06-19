@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GGG",
+    "DXD",
+    "DDD"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:green_wool"
+    },
+    "D": {
+      "item": "minecraft:brown_wool"
+    },
+    "X": {
+      "item": "minecraft:dirt"
+    }
+  },
+  "result": {
+    "id": "craftablecapes:common_cape",
+    "count": 1
+  }
+}

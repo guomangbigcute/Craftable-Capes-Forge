@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WWW",
+    "WIW",
+    "WWW"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:orange_wool"
+    },
+    "I": {
+      "item": "minecraft:torch"
+    }
+  },
+  "result": {
+    "id": "craftablecapes:minecon_7_cape",
+    "count": 1
+  }
+}
